@@ -45,7 +45,8 @@
                                                     style="height: 200px;object-fit: cover;border-top-left-radius: .3rem;border-top-right-radius: .3rem;" />
                                             </div>
                                             <div class="card-body">
-                                                <a href="#" class="text-dark text-decoration-none">
+                                                <a href="{{ route('landing.post.show', $post->slug) }}"
+                                                    class="text-dark text-decoration-none">
                                                     <h6>{{ $post->title }}</h6>
                                                 </a>
                                             </div>
@@ -124,7 +125,8 @@
 
                     <div>
                         @foreach ($events as $event)
-                            <a href="#" class="text-decoration-none text-dark">
+                            <a href="{{ route('landing.event.show', $event->slug) }}"
+                                class="text-decoration-none text-dark">
                                 <div class="card mb-3 shadow-sm border-0">
                                     <div class="card-body">
                                         <h6>{{ $event->title }}</h6>
@@ -156,7 +158,7 @@
                     <div>
                         <div class="list-group">
                             @foreach ($categories as $category)
-                                <a href="#"
+                                <a href="{{ route('landing.category.show', $category->slug) }}"
                                     class="list-group-item list-group-item-action border-0 shadow-sm mb-2 rounded">
                                     <i class="fa fa-folder-open" aria-hidden="true"></i>
                                     {{ $category->name }}

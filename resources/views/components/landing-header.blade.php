@@ -10,27 +10,27 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto mb-2 mb-md-0">
                 <li class="nav-item">
-                    <a href="" class="nav-link">
+                    <a href="/post" class="nav-link">
                         <i class="fa fa-book-open" arial-hidden="true"></i> BERITA
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">
+                    <a href="/event" class="nav-link">
                         <i class="fa fa-calendar" aria-hidden="true"></i> AGENDA
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">
+                    <a href="/photo" class="nav-link">
                         <i class="fa fa-image" aria-hidden="true"></i> GALERI
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">
+                    <a href="/video" class="nav-link">
                         <i class="fa fa-video" aria-hidden="true"></i> VIDEO
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">
+                    <a href="/contact" class="nav-link">
                         <i class="fa fa-phone" aria-hidden="true"></i> KONTAK
                     </a>
                 </li>
