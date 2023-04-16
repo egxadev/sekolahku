@@ -39,7 +39,7 @@
 
         <div class="container-fluid mt-5 mb-5">
             <div class="row">
-                @foreach ($videos as $video)
+                @forelse ($videos as $video)
                     <div class="col-md-6 mb-4">
                         <div class="card h-100 shadow-sm border-0 rounded-lg">
                             <div class="card-img">
@@ -54,7 +54,10 @@
                             </div>
                         </div>
                     </div>
-                @endforeach
+
+                @empty
+                    Data tidak ditemukan.
+                @endforelse
             </div>
 
             <div class="mt-5 d-flex justify-content-center">

@@ -40,7 +40,7 @@
 
         <div class="container-fluid mt-5 mb-5">
             <div class="row">
-                @foreach ($events as $event)
+                @forelse ($events as $event)
                     <div class="col-md-6 mb-3">
                         <a href="{{ route('landing.event.show', $event->slug) }}" class="text-decoration-none text-dark">
                             <div class="card mb-3 shadow-sm border-0">
@@ -59,7 +59,10 @@
                             </div>
                         </a>
                     </div>
-                @endforeach
+
+                @empty
+                    Data tidak ditemukan.
+                @endforelse
             </div>
 
             <div class="mt-5 d-flex justify-content-center">

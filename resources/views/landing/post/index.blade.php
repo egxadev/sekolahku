@@ -39,7 +39,7 @@
 
         <div class="container-fluid mt-5 mb-5">
             <div class="row">
-                @foreach ($posts as $post)
+                @forelse ($posts as $post)
                     <div class="col-md-4 mb-4">
                         <div class="card shadow-sm border-0 rounded-lg">
                             <div class="card-img">
@@ -58,7 +58,10 @@
                             </div>
                         </div>
                     </div>
-                @endforeach
+
+                @empty
+                    Data tidak ditemukan.
+                @endforelse
             </div>
             <div class="mt-5 d-flex justify-content-center">
                 {{ $posts->links('vendor.pagination.bootstrap-4') }}
