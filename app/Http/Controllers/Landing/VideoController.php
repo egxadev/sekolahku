@@ -11,7 +11,7 @@ class VideoController extends Controller
 {
     public function index()
     {
-        $videos = Video::latest()->paginate(2);
+        $videos = Video::latest()->paginate(6);
         $tags = Tag::all();
 
         return view('landing.video.index', compact('videos', 'tags'));

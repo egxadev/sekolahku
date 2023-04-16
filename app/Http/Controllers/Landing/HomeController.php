@@ -16,12 +16,12 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $posts = Post::all();
+        $posts = Post::latest()->take(3)->get();
         $tags = Tag::all();
         $sliders = Slider::all();
         $photos = Photo::latest()->take(2)->get();
         $videos = Video::latest()->take(2)->get();
-        $events = Event::all();
+        $events = Event::latest()->take(4)->get();
         $categories = Category::all();
 
         return view('landing.home.index', compact('posts', 'tags', 'sliders', 'photos', 'videos', 'events', 'categories'));

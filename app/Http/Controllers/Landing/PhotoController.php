@@ -11,7 +11,7 @@ class PhotoController extends Controller
 {
     public function index()
     {
-        $photos = Photo::latest()->paginate(2);
+        $photos = Photo::latest()->paginate(9);
         $tags = Tag::all();
 
         return view('landing.photo.index', compact('photos', 'tags'));

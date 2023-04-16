@@ -13,7 +13,7 @@ class CategoryController extends Controller
     public function show($slug)
     {
         $category = Category::select('id')->where('slug', $slug)->first();
-        $posts = Post::where('category_id', $category->id)->latest()->paginate(2);
+        $posts = Post::where('category_id', $category->id)->latest()->paginate(9);
         $tags = Tag::all();
 
         return view('landing.category.show', compact('posts', 'tags'));

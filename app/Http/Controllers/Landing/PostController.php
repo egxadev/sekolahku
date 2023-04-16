@@ -13,7 +13,7 @@ class PostController extends Controller
 {
     public function index()
     {
-        $posts = Post::latest()->paginate(2);
+        $posts = Post::latest()->paginate(9);
         $tags = Tag::all();
 
         return view('landing.post.index', compact('posts', 'tags'));
@@ -23,7 +23,7 @@ class PostController extends Controller
     {
         $post = Post::Where('slug', $slug)->first();
         $categories = Category::all();
-        $events = Event::all();
+        $events = Event::latest()->take(4)->get();
         $tags = Tag::all();
 
         return view('landing.post.show', compact('post', 'categories', 'events', 'tags'));

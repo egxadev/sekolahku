@@ -10,14 +10,14 @@
             <div class="col-md-4">
                 <h5>TAGS</h5>
                 <hr />
-                @forelse ($tags as $tag)
-                    <div>
+                <div class="col">
+                    @forelse ($tags as $tag)
                         <a href="#" class="btn btn-sm btn-outline-secondary mb-2 mr-2">
                             {{ $tag->name }}</a>
-                    </div>
-                @empty
-                    tags tidak ditemukan!
-                @endforelse
+                    @empty
+                        tags tidak ditemukan!
+                    @endforelse
+                </div>
             </div>
             <div class="col-md-4">
                 <h5>KONTAK</h5>

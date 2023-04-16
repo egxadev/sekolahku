@@ -11,7 +11,7 @@ class EventController extends Controller
 {
     public function index()
     {
-        $events = Event::latest()->paginate(2);
+        $events = Event::latest()->paginate(8);
         $tags = Tag::all();
 
         return view('landing.event.index', compact('events', 'tags'));
@@ -20,7 +20,7 @@ class EventController extends Controller
     public function show($slug)
     {
         $event = Event::Where('slug', $slug)->first();
-        $events = Event::all();
+        $events = Event::latest()->take(4)->get();
         $tags = Tag::all();
 
         return view('landing.event.show', compact('event', 'events', 'tags'));
