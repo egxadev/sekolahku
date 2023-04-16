@@ -92,9 +92,6 @@
 @endsection
 
 @push('scripts')
-    <script src="{{ asset('library/sweetalert/dist/sweetalert.min.js') }}"></script>
-    <script src="{{ asset('js/page/modules-sweetalert.js') }}"></script>
-
     <script>
         //ajax delete
         function Delete(id) {
