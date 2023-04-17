@@ -18,7 +18,7 @@
                 <h1 class="bd-title mt-4 font-weight-bold">
                     <i class="fa fa-book-open" aria-hidden="true"></i> BERITA
                 </h1>
-                <p class="bd-lead">Berita terbaru tentang SMK Indonesia.</p>
+                <p class="bd-lead">Berita terbaru tentang SMA Antariksa.</p>
             </div>
         </header>
 

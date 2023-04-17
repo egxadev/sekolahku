@@ -4,8 +4,9 @@
             <div class="col-md-4">
                 <h5>TENTANG</h5>
                 <hr />
-                <p>Sekolah Menengah Kejuruan adalah pendidikan formal yang menyelenggarakan pendidikan kejuruan pada
-                    jenjang pendidikan menengah sebagai lanjutan dari SMP/MTs.</p>
+                <p>SMA Antariksa adalah sebuah sekolah menengah atas di pusat kota yang menawarkan program akademik dan
+                    ekstrakurikuler
+                    berkualitas tinggi untuk siswa menuju prestasi.</p>
             </div>
             <div class="col-md-4">
                 <h5>TAGS</h5>
@@ -23,8 +24,8 @@
                 <h5>KONTAK</h5>
                 <hr />
                 <p>
-                    <i class="fa fa-map-marker" aria-hidden="true"></i> Jl. Jendral Sudirman No.83, Daerah Khusus
-                    Ibukota Jakarta, Indonesia
+                    <i class="fa fa-map-marker" aria-hidden="true"></i> Jl. Raya Siwalanpanji No.6, Siwalan Panji,
+                    Siwalanpanji, Kec. Buduran, Kabupaten Sidoarjo, Jawa Timur 61252
                     <i class="fas fa-phone"></i> +62857-8585-2224
                 </p>
             </div>

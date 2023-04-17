@@ -6,6 +6,20 @@
             content: '/';
             color: white;
         }
+
+        .mapouter {
+            position: relative;
+            text-align: right;
+            height: 100%;
+            width: 100%;
+        }
+
+        .gmap_canvas {
+            overflow: hidden;
+            background: none !important;
+            height: 100%;
+            width: 100%;
+        }
     </style>
 @endpush
 
@@ -18,7 +32,7 @@
                 <h1 class="bd-title mt-4 font-weight-bold">
                     <i class="fa fa-phone" aria-hidden="true"></i> Kontak
                 </h1>
-                <p class="bd-lead">Kontak SMK Indonesia.</p>
+                <p class="bd-lead">Kontak SMA Antariksa.</p>
             </div>
         </header>
 
@@ -42,10 +56,15 @@
                 <div class="col-md-7">
                     <div class="card border-0 shadow-sm rounded">
                         <div class="card-body">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253840.4878845067!2d106.6894283352192!3d-6.229728025238589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b9d%3A0x5371bf0fdad786a2!2sJakarta%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1594508000901!5m2!1sid!2sid"
-                                width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""
-                                aria-hidden="false" tabindex="0"></iframe>
+                            <div class="mapouter">
+                                <div class="gmap_canvas">
+                                    <iframe id="gmap_canvas"
+                                        src="https://maps.google.com/maps?q=sma antartika&t=&z=14&ie=UTF8&iwloc=&output=embed"
+                                        width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                                        aria-hidden="false" tabindex="0" frameborder="0" marginheight="0" marginwidth="0">
+                                    </iframe>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -55,12 +74,10 @@
                             <h3>KONTAK KAMI</h3>
                             <hr />
                             <p>
-                                <i class="fa fa-map-marker" aria-hidden="true"></i> Jl. Jendral
-                                Sudirman No.83, Daerah Khusus Ibukota Jakarta, Indonesia
-
-                                <i class="fas fa-phone"></i> +62857-8585-2224
-
-                                <i class="fas fa-envelope"></i> info@smkindonesia.sch.id
+                                <i class="fas fa-envelope"></i> info@smaantariksa.sch.id <br>
+                                <i class="fas fa-phone"></i> +62857-8585-2224 <br>
+                                <i class="fa fa-map-marker" aria-hidden="true"></i> Jl. Raya Siwalanpanji No.6, Siwalan
+                                Panji, Siwalanpanji, Kec. Buduran, Kabupaten Sidoarjo, Jawa Timur 61252
                             </p>
                         </div>
                     </div>

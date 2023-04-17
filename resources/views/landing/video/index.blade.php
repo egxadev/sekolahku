@@ -18,7 +18,7 @@
                 <h1 class="bd-title mt-4 font-weight-bold">
                     <i class="fa fa-video" aria-hidden="true"></i> Video
                 </h1>
-                <p class="bd-lead">Galeri Video terbaru tentang SMK Indonesia.</p>
+                <p class="bd-lead">Galeri Video terbaru tentang SMA Antariksa.</p>
             </div>
         </header>
 

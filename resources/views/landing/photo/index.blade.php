@@ -18,7 +18,7 @@
                 <h1 class="bd-title mt-4 font-weight-bold">
                     <i class="fa fa-image" aria-hidden="true"></i> GALERI
                 </h1>
-                <p class="bd-lead">Galeri Foto terbaru tentang SMK Indonesia.</p>
+                <p class="bd-lead">Galeri Foto terbaru tentang SMA Antariksa.</p>
             </div>
         </header>
 
