@@ -2,7 +2,6 @@
 
 namespace App\Models;
 
-use Carbon\Carbon;
 use App\Models\Tag;
 use App\Models\Category;
 use Illuminate\Database\Eloquent\Model;

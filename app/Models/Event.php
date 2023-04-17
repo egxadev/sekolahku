@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Event extends Model
@@ -14,8 +15,10 @@ class Event extends Model
         'title', 'slug', 'content', 'location', 'date'
     ];
 
-    public function getDateAttribute()
+    protected function date(): Attribute
     {
-        return  Carbon::parse($this->attributes['date'])->translatedFormat('l, d M Y');
+        return Attribute::make(
+            get: fn ($value) => Carbon::parse($value)->translatedFormat('l, d M Y'),
+        );
     }
 }
