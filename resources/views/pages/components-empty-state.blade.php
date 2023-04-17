@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('title', 'Empty State')
 
@@ -29,8 +29,7 @@
                                 <h4>Empty Data</h4>
                             </div>
                             <div class="card-body">
-                                <div class="empty-state"
-                                    data-height="400">
+                                <div class="empty-state" data-height="400">
                                     <div class="empty-state-icon">
                                         <i class="fas fa-question"></i>
                                     </div>
@@ -38,10 +37,8 @@
                                     <p class="lead">
                                         Sorry we can't find any data, to get rid of this message, make at least 1 entry.
                                     </p>
-                                    <a href="#"
-                                        class="btn btn-primary mt-4">Create new One</a>
-                                    <a href="#"
-                                        class="bb mt-4">Need Help?</a>
+                                    <a href="#" class="btn btn-primary mt-4">Create new One</a>
+                                    <a href="#" class="bb mt-4">Need Help?</a>
                                 </div>
                             </div>
                         </div>
@@ -52,21 +49,17 @@
                                 <h4>Request Failed</h4>
                             </div>
                             <div class="card-body">
-                                <div class="empty-state"
-                                    data-height="400">
+                                <div class="empty-state" data-height="400">
                                     <div class="empty-state-icon bg-danger">
                                         <i class="fas fa-times"></i>
                                     </div>
                                     <h2>HTTP Request Failed</h2>
                                     <p class="lead">
                                         We tried it, but failed when requesting data to the server, sorry. (Code: <a
-                                            href="#"
-                                            class="bb">14045</a>)
+                                            href="#" class="bb">14045</a>)
                                     </p>
-                                    <a href="#"
-                                        class="btn btn-warning mt-4">Try Again</a>
-                                    <a href="#"
-                                        class="bb mt-4">Cancel</a>
+                                    <a href="#" class="btn btn-warning mt-4">Try Again</a>
+                                    <a href="#" class="bb mt-4">Cancel</a>
                                 </div>
                             </div>
                         </div>

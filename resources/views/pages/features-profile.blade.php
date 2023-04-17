@@ -1,13 +1,11 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('title', 'Profile')
 
 @push('style')
     <!-- CSS Libraries -->
-    <link rel="stylesheet"
-        href="{{ asset('library/summernote/dist/summernote-bs4.css') }}">
-    <link rel="stylesheet"
-        href="{{ asset('library/bootstrap-social/assets/css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ asset('library/summernote/dist/summernote-bs4.css') }}">
+    <link rel="stylesheet" href="{{ asset('library/bootstrap-social/assets/css/bootstrap.css') }}">
 @endpush
 
 @section('main')
@@ -30,8 +28,7 @@
                     <div class="col-12 col-md-12 col-lg-5">
                         <div class="card profile-widget">
                             <div class="profile-widget-header">
-                                <img alt="image"
-                                    src="{{ asset('img/avatar/avatar-1.png') }}"
+                                <img alt="image" src="{{ asset('img/avatar/avatar-1.png') }}"
                                     class="rounded-circle profile-widget-picture">
                                 <div class="profile-widget-items">
                                     <div class="profile-widget-item">
@@ -61,20 +58,16 @@
                             </div>
                             <div class="card-footer text-center">
                                 <div class="font-weight-bold mb-2">Follow Ujang On</div>
-                                <a href="#"
-                                    class="btn btn-social-icon btn-facebook mr-1">
+                                <a href="#" class="btn btn-social-icon btn-facebook mr-1">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
-                                <a href="#"
-                                    class="btn btn-social-icon btn-twitter mr-1">
+                                <a href="#" class="btn btn-social-icon btn-twitter mr-1">
                                     <i class="fab fa-twitter"></i>
                                 </a>
-                                <a href="#"
-                                    class="btn btn-social-icon btn-github mr-1">
+                                <a href="#" class="btn btn-social-icon btn-github mr-1">
                                     <i class="fab fa-github"></i>
                                 </a>
-                                <a href="#"
-                                    class="btn btn-social-icon btn-instagram">
+                                <a href="#" class="btn btn-social-icon btn-instagram">
                                     <i class="fab fa-instagram"></i>
                                 </a>
                             </div>
@@ -82,9 +75,7 @@
                     </div>
                     <div class="col-12 col-md-12 col-lg-7">
                         <div class="card">
-                            <form method="post"
-                                class="needs-validation"
-                                novalidate="">
+                            <form method="post" class="needs-validation" novalidate="">
                                 <div class="card-header">
                                     <h4>Edit Profile</h4>
                                 </div>
@@ -92,20 +83,14 @@
                                     <div class="row">
                                         <div class="form-group col-md-6 col-12">
                                             <label>First Name</label>
-                                            <input type="text"
-                                                class="form-control"
-                                                value="Ujang"
-                                                required="">
+                                            <input type="text" class="form-control" value="Ujang" required="">
                                             <div class="invalid-feedback">
                                                 Please fill in the first name
                                             </div>
                                         </div>
                                         <div class="form-group col-md-6 col-12">
                                             <label>Last Name</label>
-                                            <input type="text"
-                                                class="form-control"
-                                                value="Maman"
-                                                required="">
+                                            <input type="text" class="form-control" value="Maman" required="">
                                             <div class="invalid-feedback">
                                                 Please fill in the last name
                                             </div>
@@ -114,9 +99,7 @@
                                     <div class="row">
                                         <div class="form-group col-md-7 col-12">
                                             <label>Email</label>
-                                            <input type="email"
-                                                class="form-control"
-                                                value="ujang@maman.com"
+                                            <input type="email" class="form-control" value="ujang@maman.com"
                                                 required="">
                                             <div class="invalid-feedback">
                                                 Please fill in the email
@@ -124,9 +107,7 @@
                                         </div>
                                         <div class="form-group col-md-5 col-12">
                                             <label>Phone</label>
-                                            <input type="tel"
-                                                class="form-control"
-                                                value="">
+                                            <input type="tel" class="form-control" value="">
                                         </div>
                                     </div>
                                     <div class="row">
@@ -138,12 +119,10 @@
                                     <div class="row">
                                         <div class="form-group col-12 mb-0">
                                             <div class="custom-control custom-checkbox">
-                                                <input type="checkbox"
-                                                    name="remember"
-                                                    class="custom-control-input"
+                                                <input type="checkbox" name="remember" class="custom-control-input"
                                                     id="newsletter">
-                                                <label class="custom-control-label"
-                                                    for="newsletter">Subscribe to newsletter</label>
+                                                <label class="custom-control-label" for="newsletter">Subscribe to
+                                                    newsletter</label>
                                                 <div class="text-muted form-text">
                                                     You will get new information about products, offers and promotions
                                                 </div>

@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('title', 'Activities')
 
@@ -29,20 +29,17 @@
                                     <div class="mb-2">
                                         <span class="text-job text-primary">2 min ago</span>
                                         <span class="bullet"></span>
-                                        <a class="text-job"
-                                            href="#">View</a>
+                                        <a class="text-job" href="#">View</a>
                                         <div class="dropdown float-right">
-                                            <a href="#"
-                                                data-toggle="dropdown"><i class="fas fa-ellipsis-h"></i></a>
+                                            <a href="#" data-toggle="dropdown"><i class="fas fa-ellipsis-h"></i></a>
                                             <div class="dropdown-menu">
                                                 <div class="dropdown-title">Options</div>
-                                                <a href="#"
-                                                    class="dropdown-item has-icon"><i class="fas fa-eye"></i> View</a>
-                                                <a href="#"
-                                                    class="dropdown-item has-icon"><i class="fas fa-list"></i> Detail</a>
+                                                <a href="#" class="dropdown-item has-icon"><i class="fas fa-eye"></i>
+                                                    View</a>
+                                                <a href="#" class="dropdown-item has-icon"><i class="fas fa-list"></i>
+                                                    Detail</a>
                                                 <div class="dropdown-divider"></div>
-                                                <a href="#"
-                                                    class="dropdown-item has-icon text-danger"
+                                                <a href="#" class="dropdown-item has-icon text-danger"
                                                     data-confirm="Wait, wait, wait...|This action can't be undone. Want to take risks?"
                                                     data-confirm-text-yes="Yes, IDC"><i class="fas fa-trash-alt"></i>
                                                     Archive</a>
@@ -60,20 +57,17 @@
                                     <div class="mb-2">
                                         <span class="text-job">1 hour ago</span>
                                         <span class="bullet"></span>
-                                        <a class="text-job"
-                                            href="#">View</a>
+                                        <a class="text-job" href="#">View</a>
                                         <div class="dropdown float-right">
-                                            <a href="#"
-                                                data-toggle="dropdown"><i class="fas fa-ellipsis-h"></i></a>
+                                            <a href="#" data-toggle="dropdown"><i class="fas fa-ellipsis-h"></i></a>
                                             <div class="dropdown-menu">
                                                 <div class="dropdown-title">Options</div>
-                                                <a href="#"
-                                                    class="dropdown-item has-icon"><i class="fas fa-eye"></i> View</a>
-                                                <a href="#"
-                                                    class="dropdown-item has-icon"><i class="fas fa-list"></i> Detail</a>
+                                                <a href="#" class="dropdown-item has-icon"><i class="fas fa-eye"></i>
+                                                    View</a>
+                                                <a href="#" class="dropdown-item has-icon"><i class="fas fa-list"></i>
+                                                    Detail</a>
                                                 <div class="dropdown-divider"></div>
-                                                <a href="#"
-                                                    class="dropdown-item has-icon text-danger"
+                                                <a href="#" class="dropdown-item has-icon text-danger"
                                                     data-confirm="Wait, wait, wait...|This action can't be undone. Want to take risks?"
                                                     data-confirm-text-yes="Yes, IDC"><i class="fas fa-trash-alt"></i>
                                                     Archive</a>
@@ -92,20 +86,17 @@
                                     <div class="mb-2">
                                         <span class="text-job">4 hour ago</span>
                                         <span class="bullet"></span>
-                                        <a class="text-job"
-                                            href="#">View</a>
+                                        <a class="text-job" href="#">View</a>
                                         <div class="dropdown float-right">
-                                            <a href="#"
-                                                data-toggle="dropdown"><i class="fas fa-ellipsis-h"></i></a>
+                                            <a href="#" data-toggle="dropdown"><i class="fas fa-ellipsis-h"></i></a>
                                             <div class="dropdown-menu">
                                                 <div class="dropdown-title">Options</div>
-                                                <a href="#"
-                                                    class="dropdown-item has-icon"><i class="fas fa-eye"></i> View</a>
-                                                <a href="#"
-                                                    class="dropdown-item has-icon"><i class="fas fa-list"></i> Detail</a>
+                                                <a href="#" class="dropdown-item has-icon"><i class="fas fa-eye"></i>
+                                                    View</a>
+                                                <a href="#" class="dropdown-item has-icon"><i class="fas fa-list"></i>
+                                                    Detail</a>
                                                 <div class="dropdown-divider"></div>
-                                                <a href="#"
-                                                    class="dropdown-item has-icon text-danger"
+                                                <a href="#" class="dropdown-item has-icon text-danger"
                                                     data-confirm="Wait, wait, wait...|This action can't be undone. Want to take risks?"
                                                     data-confirm-text-yes="Yes, IDC"><i class="fas fa-trash-alt"></i>
                                                     Archive</a>
@@ -123,20 +114,18 @@
                                     <div class="mb-2">
                                         <span class="text-job">12 hour ago</span>
                                         <span class="bullet"></span>
-                                        <a class="text-job"
-                                            href="#">View</a>
+                                        <a class="text-job" href="#">View</a>
                                         <div class="dropdown float-right">
-                                            <a href="#"
-                                                data-toggle="dropdown"><i class="fas fa-ellipsis-h"></i></a>
+                                            <a href="#" data-toggle="dropdown"><i
+                                                    class="fas fa-ellipsis-h"></i></a>
                                             <div class="dropdown-menu">
                                                 <div class="dropdown-title">Options</div>
-                                                <a href="#"
-                                                    class="dropdown-item has-icon"><i class="fas fa-eye"></i> View</a>
-                                                <a href="#"
-                                                    class="dropdown-item has-icon"><i class="fas fa-list"></i> Detail</a>
+                                                <a href="#" class="dropdown-item has-icon"><i
+                                                        class="fas fa-eye"></i> View</a>
+                                                <a href="#" class="dropdown-item has-icon"><i
+                                                        class="fas fa-list"></i> Detail</a>
                                                 <div class="dropdown-divider"></div>
-                                                <a href="#"
-                                                    class="dropdown-item has-icon text-danger"
+                                                <a href="#" class="dropdown-item has-icon text-danger"
                                                     data-confirm="Wait, wait, wait...|This action can't be undone. Want to take risks?"
                                                     data-confirm-text-yes="Yes, IDC"><i class="fas fa-trash-alt"></i>
                                                     Archive</a>
@@ -154,20 +143,18 @@
                                     <div class="mb-2">
                                         <span class="text-job">Yesterday</span>
                                         <span class="bullet"></span>
-                                        <a class="text-job"
-                                            href="#">View</a>
+                                        <a class="text-job" href="#">View</a>
                                         <div class="dropdown float-right">
-                                            <a href="#"
-                                                data-toggle="dropdown"><i class="fas fa-ellipsis-h"></i></a>
+                                            <a href="#" data-toggle="dropdown"><i
+                                                    class="fas fa-ellipsis-h"></i></a>
                                             <div class="dropdown-menu">
                                                 <div class="dropdown-title">Options</div>
-                                                <a href="#"
-                                                    class="dropdown-item has-icon"><i class="fas fa-eye"></i> View</a>
-                                                <a href="#"
-                                                    class="dropdown-item has-icon"><i class="fas fa-list"></i> Detail</a>
+                                                <a href="#" class="dropdown-item has-icon"><i
+                                                        class="fas fa-eye"></i> View</a>
+                                                <a href="#" class="dropdown-item has-icon"><i
+                                                        class="fas fa-list"></i> Detail</a>
                                                 <div class="dropdown-divider"></div>
-                                                <a href="#"
-                                                    class="dropdown-item has-icon text-danger"
+                                                <a href="#" class="dropdown-item has-icon text-danger"
                                                     data-confirm="Wait, wait, wait...|This action can't be undone. Want to take risks?"
                                                     data-confirm-text-yes="Yes, IDC"><i class="fas fa-trash-alt"></i>
                                                     Archive</a>
@@ -185,20 +172,18 @@
                                     <div class="mb-2">
                                         <span class="text-job">Yesterday</span>
                                         <span class="bullet"></span>
-                                        <a class="text-job"
-                                            href="#">View</a>
+                                        <a class="text-job" href="#">View</a>
                                         <div class="dropdown float-right">
-                                            <a href="#"
-                                                data-toggle="dropdown"><i class="fas fa-ellipsis-h"></i></a>
+                                            <a href="#" data-toggle="dropdown"><i
+                                                    class="fas fa-ellipsis-h"></i></a>
                                             <div class="dropdown-menu">
                                                 <div class="dropdown-title">Options</div>
-                                                <a href="#"
-                                                    class="dropdown-item has-icon"><i class="fas fa-eye"></i> View</a>
-                                                <a href="#"
-                                                    class="dropdown-item has-icon"><i class="fas fa-list"></i> Detail</a>
+                                                <a href="#" class="dropdown-item has-icon"><i
+                                                        class="fas fa-eye"></i> View</a>
+                                                <a href="#" class="dropdown-item has-icon"><i
+                                                        class="fas fa-list"></i> Detail</a>
                                                 <div class="dropdown-divider"></div>
-                                                <a href="#"
-                                                    class="dropdown-item has-icon text-danger"
+                                                <a href="#" class="dropdown-item has-icon text-danger"
                                                     data-confirm="Wait, wait, wait...|This action can't be undone. Want to take risks?"
                                                     data-confirm-text-yes="Yes, IDC"><i class="fas fa-trash-alt"></i>
                                                     Archive</a>

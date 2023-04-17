@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('title', 'Font Awesome')
 
@@ -40,8 +40,7 @@
                                             still go to the official page to see the available icons.</p>
                                         <p>Font Awesome Free by @fontawesome</p>
                                         <p class="mt-3">
-                                            <a href="https://fontawesome.com/icons"
-                                                target="_blank"
+                                            <a href="https://fontawesome.com/icons" target="_blank"
                                                 class="btn text-dark bg-white">Let's Go</a>
                                         </p>
                                     </div>

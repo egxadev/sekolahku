@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('content')
     <div class="main-content">
@@ -20,17 +20,21 @@
                             @method('PUT')
                             <div class="form-group">
                                 <label>NAMA TAG</label>
-                                <input type="text" name="name" value="{{ old('name', $tag->name) }}" placeholder="Masukkan Nama Tag" class="form-control @error('name') is-invalid @enderror">
+                                <input type="text" name="name" value="{{ old('name', $tag->name) }}"
+                                    placeholder="Masukkan Nama Tag"
+                                    class="form-control @error('name') is-invalid @enderror">
 
                                 @error('name')
-                                <div class="invalid-feedback" style="display: block">
-                                    {{ $message }}
-                                </div>
+                                    <div class="invalid-feedback" style="display: block">
+                                        {{ $message }}
+                                    </div>
                                 @enderror
                             </div>
 
-                            <button class="btn btn-primary mr-1 btn-submit" type="submit"><i class="fa fa-paper-plane"></i> UPDATE</button>
-                            <button class="btn btn-warning btn-reset" type="reset"><i class="fa fa-redo"></i> RESET</button>
+                            <button class="btn btn-primary mr-1 btn-submit" type="submit"><i class="fa fa-paper-plane"></i>
+                                UPDATE</button>
+                            <button class="btn btn-warning btn-reset" type="reset"><i class="fa fa-redo"></i>
+                                RESET</button>
 
                         </form>
                     </div>

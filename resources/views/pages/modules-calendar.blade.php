@@ -1,11 +1,10 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('title', 'Calendar')
 
 @push('style')
     <!-- CSS Libraries -->
-    <link rel="stylesheet"
-        href="{{ asset('library/fullcalendar/dist/fullcalendar.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('library/fullcalendar/dist/fullcalendar.min.css') }}">
 @endpush
 
 @section('main')

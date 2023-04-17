@@ -1,15 +1,12 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('title', 'Vector Map')
 
 @push('style')
     <!-- CSS Libraries -->
-    <link rel="stylesheet"
-        href="{{ asset('library/izitoast/dist/css/iziToast.min.css') }}">
-    <link rel="stylesheet"
-        href="{{ asset('library/jqvmap/dist/jqvmap.min.css') }}">
-    <link rel="stylesheet"
-        href="{{ asset('library/flag-icon-css/css/flag-icon.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('library/izitoast/dist/css/iziToast.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('library/jqvmap/dist/jqvmap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('library/flag-icon-css/css/flag-icon.min.css') }}">
 @endpush
 
 @section('main')
@@ -58,8 +55,7 @@
                                         <div class="font-weight-bold">You Choose: </div>
                                     </div>
                                     <div class="col-6">
-                                        <span class="flag-icon flag-icon-id flag-icon-shadow"
-                                            id="flag-icon"></span>
+                                        <span class="flag-icon flag-icon-id flag-icon-shadow" id="flag-icon"></span>
                                     </div>
                                 </div>
                                 <div id="visitorMap2"></div>

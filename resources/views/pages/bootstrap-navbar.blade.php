@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('title', 'Navbar')
 
@@ -33,8 +33,7 @@
                             </div>
                             <div class="card-body">
                                 <nav class="navbar bg-primary">
-                                    <a class="navbar-brand"
-                                        href="#">My App</a>
+                                    <a class="navbar-brand" href="#">My App</a>
                                 </nav>
                             </div>
                         </div>
@@ -44,35 +43,26 @@
                             </div>
                             <div class="card-body">
                                 <nav class="navbar navbar-expand-lg bg-primary">
-                                    <a class="navbar-brand"
-                                        href="#">My App</a>
-                                    <button class="navbar-toggler"
-                                        type="button"
-                                        data-toggle="collapse"
-                                        data-target="#navbarNav"
-                                        aria-controls="navbarNav"
-                                        aria-expanded="false"
+                                    <a class="navbar-brand" href="#">My App</a>
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                        data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                                         aria-label="Toggle navigation">
                                         <span class="navbar-toggler-icon"></span>
                                     </button>
-                                    <div class="collapse navbar-collapse"
-                                        id="navbarNav">
+                                    <div class="collapse navbar-collapse" id="navbarNav">
                                         <ul class="navbar-nav">
                                             <li class="nav-item active">
-                                                <a class="nav-link"
-                                                    href="#">Home <span class="sr-only">(current)</span></a>
+                                                <a class="nav-link" href="#">Home <span
+                                                        class="sr-only">(current)</span></a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link"
-                                                    href="#">Features</a>
+                                                <a class="nav-link" href="#">Features</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link"
-                                                    href="#">Pricing</a>
+                                                <a class="nav-link" href="#">Pricing</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link disabled"
-                                                    href="#">Disabled</a>
+                                                <a class="nav-link disabled" href="#">Disabled</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -87,15 +77,10 @@
                             </div>
                             <div class="card-body">
                                 <nav class="navbar bg-primary">
-                                    <a class="navbar-brand"
-                                        href="#">My App</a>
+                                    <a class="navbar-brand" href="#">My App</a>
                                     <form class="form-inline">
-                                        <input class="form-control"
-                                            type="search"
-                                            placeholder="Search"
-                                            aria-label="Search">
-                                        <button class="btn btn-outline-dark"
-                                            type="submit">Search</button>
+                                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                                        <button class="btn btn-outline-dark" type="submit">Search</button>
                                     </form>
                                 </nav>
                             </div>
@@ -106,31 +91,23 @@
                             </div>
                             <div class="card-body">
                                 <nav class="navbar navbar-expand-lg bg-primary">
-                                    <a class="navbar-brand"
-                                        href="#">My App</a>
-                                    <button class="navbar-toggler"
-                                        type="button"
-                                        data-toggle="collapse"
-                                        data-target="#navbarText"
-                                        aria-controls="navbarText"
-                                        aria-expanded="false"
+                                    <a class="navbar-brand" href="#">My App</a>
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                        data-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
                                         aria-label="Toggle navigation">
                                         <span class="navbar-toggler-icon"></span>
                                     </button>
-                                    <div class="collapse navbar-collapse"
-                                        id="navbarText">
+                                    <div class="collapse navbar-collapse" id="navbarText">
                                         <ul class="navbar-nav mr-auto">
                                             <li class="nav-item active">
-                                                <a class="nav-link"
-                                                    href="#">Home <span class="sr-only">(current)</span></a>
+                                                <a class="nav-link" href="#">Home <span
+                                                        class="sr-only">(current)</span></a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link"
-                                                    href="#">Features</a>
+                                                <a class="nav-link" href="#">Features</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link"
-                                                    href="#">Pricing</a>
+                                                <a class="nav-link" href="#">Pricing</a>
                                             </li>
                                         </ul>
                                         <span class="navbar-text">

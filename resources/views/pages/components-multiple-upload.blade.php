@@ -1,11 +1,10 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('title', 'Multiple Upload')
 
 @push('style')
     <!-- CSS Libraries -->
-    <link rel="stylesheet"
-        href="{{ asset('library/dropzone/dist/dropzone.css') }}">
+    <link rel="stylesheet" href="{{ asset('library/dropzone/dist/dropzone.css') }}">
 @endpush
 
 @section('main')
@@ -34,13 +33,9 @@
                                 <h4>Multiple Upload</h4>
                             </div>
                             <div class="card-body">
-                                <form action="#"
-                                    class="dropzone"
-                                    id="mydropzone">
+                                <form action="#" class="dropzone" id="mydropzone">
                                     <div class="fallback">
-                                        <input name="file"
-                                            type="file"
-                                            multiple />
+                                        <input name="file" type="file" multiple />
                                     </div>
                                 </form>
                             </div>

@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('title', 'Media Object')
 
@@ -33,8 +33,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="media">
-                                    <img class="mr-3"
-                                        src="{{ asset('img/example-image-50.jpg') }}"
+                                    <img class="mr-3" src="{{ asset('img/example-image-50.jpg') }}"
                                         alt="Generic placeholder image">
                                     <div class="media-body">
                                         <h5 class="mt-0">Media heading</h5>
@@ -53,8 +52,7 @@
                             <div class="card-body">
                                 <ul class="list-unstyled">
                                     <li class="media">
-                                        <img class="mr-3"
-                                            src="{{ asset('img/example-image-50.jpg') }}"
+                                        <img class="mr-3" src="{{ asset('img/example-image-50.jpg') }}"
                                             alt="Generic placeholder image">
                                         <div class="media-body">
                                             <h5 class="mt-0 mb-1">List-based media object</h5>
@@ -64,8 +62,7 @@
                                         </div>
                                     </li>
                                     <li class="media my-4">
-                                        <img class="mr-3"
-                                            src="{{ asset('img/example-image-50.jpg') }}"
+                                        <img class="mr-3" src="{{ asset('img/example-image-50.jpg') }}"
                                             alt="Generic placeholder image">
                                         <div class="media-body">
                                             <h5 class="mt-0 mb-1">List-based media object</h5>
@@ -75,8 +72,7 @@
                                         </div>
                                     </li>
                                     <li class="media">
-                                        <img class="mr-3"
-                                            src="{{ asset('img/example-image-50.jpg') }}"
+                                        <img class="mr-3" src="{{ asset('img/example-image-50.jpg') }}"
                                             alt="Generic placeholder image">
                                         <div class="media-body">
                                             <h5 class="mt-0 mb-1">List-based media object</h5>
@@ -96,8 +92,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="media">
-                                    <img class="mr-3"
-                                        src="{{ asset('img/example-image-50.jpg') }}"
+                                    <img class="mr-3" src="{{ asset('img/example-image-50.jpg') }}"
                                         alt="Generic placeholder image">
                                     <div class="media-body">
                                         <h5 class="mt-0">Media heading</h5>
@@ -107,8 +102,7 @@
                                             felis in faucibus.</p>
 
                                         <div class="media mt-3">
-                                            <a class="pr-3"
-                                                href="#">
+                                            <a class="pr-3" href="#">
                                                 <img src="{{ asset('img/example-image-50.jpg') }}"
                                                     alt="Generic placeholder image">
                                             </a>
@@ -137,8 +131,7 @@
                                             turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
                                             felis in faucibus.</p>
                                     </div>
-                                    <img class="ml-3"
-                                        src="{{ asset('img/example-image-50.jpg') }}"
+                                    <img class="ml-3" src="{{ asset('img/example-image-50.jpg') }}"
                                         alt="Generic placeholder image">
                                 </div>
                             </div>

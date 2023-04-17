@@ -1,15 +1,12 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('title', 'Create New Post')
 
 @push('style')
     <!-- CSS Libraries -->
-    <link rel="stylesheet"
-        href="{{ asset('library/summernote/dist/summernote-bs4.css') }}">
-    <link rel="stylesheet"
-        href="{{ asset('library/selectric/public/selectric.css') }}">
-    <link rel="stylesheet"
-        href="{{ asset('library/bootstrap-tagsinput/dist/bootstrap-tagsinput.css') }}">
+    <link rel="stylesheet" href="{{ asset('library/summernote/dist/summernote-bs4.css') }}">
+    <link rel="stylesheet" href="{{ asset('library/selectric/public/selectric.css') }}">
+    <link rel="stylesheet" href="{{ asset('library/bootstrap-tagsinput/dist/bootstrap-tagsinput.css') }}">
 @endpush
 
 @section('main')
@@ -17,8 +14,7 @@
         <section class="section">
             <div class="section-header">
                 <div class="section-header-back">
-                    <a href="features-posts.html"
-                        class="btn btn-icon"><i class="fas fa-arrow-left"></i></a>
+                    <a href="features-posts.html" class="btn btn-icon"><i class="fas fa-arrow-left"></i></a>
                 </div>
                 <h1>Create New Post</h1>
                 <div class="section-header-breadcrumb">
@@ -44,8 +40,7 @@
                                 <div class="form-group row mb-4">
                                     <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Title</label>
                                     <div class="col-sm-12 col-md-7">
-                                        <input type="text"
-                                            class="form-control">
+                                        <input type="text" class="form-control">
                                     </div>
                                 </div>
                                 <div class="form-group row mb-4">
@@ -67,21 +62,16 @@
                                 <div class="form-group row mb-4">
                                     <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Thumbnail</label>
                                     <div class="col-sm-12 col-md-7">
-                                        <div id="image-preview"
-                                            class="image-preview">
-                                            <label for="image-upload"
-                                                id="image-label">Choose File</label>
-                                            <input type="file"
-                                                name="image"
-                                                id="image-upload" />
+                                        <div id="image-preview" class="image-preview">
+                                            <label for="image-upload" id="image-label">Choose File</label>
+                                            <input type="file" name="image" id="image-upload" />
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-group row mb-4">
                                     <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Tags</label>
                                     <div class="col-sm-12 col-md-7">
-                                        <input type="text"
-                                            class="form-control inputtags">
+                                        <input type="text" class="form-control inputtags">
                                     </div>
                                 </div>
                                 <div class="form-group row mb-4">

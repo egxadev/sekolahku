@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('title', 'Article')
 
@@ -26,8 +26,7 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                         <article class="article">
                             <div class="article-header">
-                                <div class="article-image"
-                                    data-background="{{ asset('img/news/img08.jpg') }}">
+                                <div class="article-image" data-background="{{ asset('img/news/img08.jpg') }}">
                                 </div>
                                 <div class="article-title">
                                     <h2><a href="#">Excepteur sint occaecat cupidatat non proident</a></h2>
@@ -37,8 +36,7 @@
                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
                                     cillum dolore eu fugiat nulla pariatur. </p>
                                 <div class="article-cta">
-                                    <a href="#"
-                                        class="btn btn-primary">Read More</a>
+                                    <a href="#" class="btn btn-primary">Read More</a>
                                 </div>
                             </div>
                         </article>
@@ -46,8 +44,7 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                         <article class="article">
                             <div class="article-header">
-                                <div class="article-image"
-                                    data-background="{{ asset('img/news/img04.jpg') }}">
+                                <div class="article-image" data-background="{{ asset('img/news/img04.jpg') }}">
                                 </div>
                                 <div class="article-title">
                                     <h2><a href="#">Excepteur sint occaecat cupidatat non proident</a></h2>
@@ -57,8 +54,7 @@
                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
                                     cillum dolore eu fugiat nulla pariatur. </p>
                                 <div class="article-cta">
-                                    <a href="#"
-                                        class="btn btn-primary">Read More</a>
+                                    <a href="#" class="btn btn-primary">Read More</a>
                                 </div>
                             </div>
                         </article>
@@ -66,8 +62,7 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                         <article class="article">
                             <div class="article-header">
-                                <div class="article-image"
-                                    data-background="{{ asset('img/news/img09.jpg') }}">
+                                <div class="article-image" data-background="{{ asset('img/news/img09.jpg') }}">
                                 </div>
                                 <div class="article-title">
                                     <h2><a href="#">Excepteur sint occaecat cupidatat non proident</a></h2>
@@ -77,8 +72,7 @@
                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
                                     cillum dolore eu fugiat nulla pariatur. </p>
                                 <div class="article-cta">
-                                    <a href="#"
-                                        class="btn btn-primary">Read More</a>
+                                    <a href="#" class="btn btn-primary">Read More</a>
                                 </div>
                             </div>
                         </article>
@@ -86,8 +80,7 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                         <article class="article">
                             <div class="article-header">
-                                <div class="article-image"
-                                    data-background="{{ asset('img/news/img12.jpg') }}">
+                                <div class="article-image" data-background="{{ asset('img/news/img12.jpg') }}">
                                 </div>
                                 <div class="article-title">
                                     <h2><a href="#">Excepteur sint occaecat cupidatat non proident</a></h2>
@@ -97,8 +90,7 @@
                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
                                     cillum dolore eu fugiat nulla pariatur. </p>
                                 <div class="article-cta">
-                                    <a href="#"
-                                        class="btn btn-primary">Read More</a>
+                                    <a href="#" class="btn btn-primary">Read More</a>
                                 </div>
                             </div>
                         </article>
@@ -110,8 +102,7 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                         <article class="article article-style-b">
                             <div class="article-header">
-                                <div class="article-image"
-                                    data-background="{{ asset('img/news/img13.jpg') }}">
+                                <div class="article-image" data-background="{{ asset('img/news/img13.jpg') }}">
                                 </div>
                                 <div class="article-badge">
                                     <div class="article-badge-item bg-danger"><i class="fas fa-fire"></i> Trending</div>
@@ -132,8 +123,7 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                         <article class="article article-style-b">
                             <div class="article-header">
-                                <div class="article-image"
-                                    data-background="{{ asset('img/news/img15.jpg') }}">
+                                <div class="article-image" data-background="{{ asset('img/news/img15.jpg') }}">
                                 </div>
                             </div>
                             <div class="article-details">
@@ -151,8 +141,7 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                         <article class="article article-style-b">
                             <div class="article-header">
-                                <div class="article-image"
-                                    data-background="{{ asset('img/news/img07.jpg') }}">
+                                <div class="article-image" data-background="{{ asset('img/news/img07.jpg') }}">
                                 </div>
                             </div>
                             <div class="article-details">
@@ -170,8 +159,7 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                         <article class="article article-style-b">
                             <div class="article-header">
-                                <div class="article-image"
-                                    data-background="{{ asset('img/news/img02.jpg') }}">
+                                <div class="article-image" data-background="{{ asset('img/news/img02.jpg') }}">
                                 </div>
                             </div>
                             <div class="article-details">
@@ -192,8 +180,7 @@
                     <div class="col-12 col-md-4 col-lg-4">
                         <article class="article article-style-c">
                             <div class="article-header">
-                                <div class="article-image"
-                                    data-background="{{ asset('img/news/img13.jpg') }}">
+                                <div class="article-image" data-background="{{ asset('img/news/img13.jpg') }}">
                                 </div>
                             </div>
                             <div class="article-details">
@@ -206,8 +193,7 @@
                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
                                     cillum dolore eu fugiat nulla pariatur. </p>
                                 <div class="article-user">
-                                    <img alt="image"
-                                        src="{{ asset('img/avatar/avatar-1.png') }}">
+                                    <img alt="image" src="{{ asset('img/avatar/avatar-1.png') }}">
                                     <div class="article-user-details">
                                         <div class="user-detail-name">
                                             <a href="#">Hasan Basri</a>
@@ -221,8 +207,7 @@
                     <div class="col-12 col-md-4 col-lg-4">
                         <article class="article article-style-c">
                             <div class="article-header">
-                                <div class="article-image"
-                                    data-background="{{ asset('img/news/img14.jpg') }}">
+                                <div class="article-image" data-background="{{ asset('img/news/img14.jpg') }}">
                                 </div>
                             </div>
                             <div class="article-details">
@@ -235,8 +220,7 @@
                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
                                     cillum dolore eu fugiat nulla pariatur. </p>
                                 <div class="article-user">
-                                    <img alt="image"
-                                        src="{{ asset('img/avatar/avatar-3.png') }}">
+                                    <img alt="image" src="{{ asset('img/avatar/avatar-3.png') }}">
                                     <div class="article-user-details">
                                         <div class="user-detail-name">
                                             <a href="#">Rizal Fakhri</a>
@@ -250,8 +234,7 @@
                     <div class="col-12 col-md-4 col-lg-4">
                         <article class="article article-style-c">
                             <div class="article-header">
-                                <div class="article-image"
-                                    data-background="{{ asset('img/news/img01.jpg') }}">
+                                <div class="article-image" data-background="{{ asset('img/news/img01.jpg') }}">
                                 </div>
                             </div>
                             <div class="article-details">
@@ -264,8 +247,7 @@
                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
                                     cillum dolore eu fugiat nulla pariatur. </p>
                                 <div class="article-user">
-                                    <img alt="image"
-                                        src="{{ asset('img/avatar/avatar-2.png') }}">
+                                    <img alt="image" src="{{ asset('img/avatar/avatar-2.png') }}">
                                     <div class="article-user-details">
                                         <div class="user-detail-name">
                                             <a href="#">Irwansyah Saputra</a>

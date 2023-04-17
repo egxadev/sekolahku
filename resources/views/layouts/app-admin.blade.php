@@ -42,7 +42,7 @@
     <div id="app">
         <div class="main-wrapper">
             <!-- Header -->
-            @include('components.header')
+            @include('components.admin-header')
 
             <!-- Sidebar -->
             @include('components.sidebar')
@@ -51,7 +51,7 @@
             @yield('content')
 
             <!-- Footer -->
-            @include('components.footer')
+            @include('components.admin-footer')
         </div>
     </div>
 

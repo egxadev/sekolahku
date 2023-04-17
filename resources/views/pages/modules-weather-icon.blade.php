@@ -1,13 +1,11 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('title', 'Blank Page')
 
 @push('style')
     <!-- CSS Libraries -->
-    <link rel="stylesheet"
-        href="{{ asset('library/weathericons/css/weather-icons.min.css') }}">
-    <link rel="stylesheet"
-        href="{{ asset('library/weathericons/css/weather-icons-wind.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('library/weathericons/css/weather-icons.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('library/weathericons/css/weather-icons-wind.min.css') }}">
 @endpush
 
 @section('main')
@@ -1194,12 +1192,14 @@
                                                 <p></p>
                                                 <p>To make a wind icon appear, you need to add 3 classes, the base icon
                                                     class, the wind icon class, and then the direction you want it to face:
-                                                    <code>class="wi wi-wind towards-23-deg"</code></p>
+                                                    <code>class="wi wi-wind towards-23-deg"</code>
+                                                </p>
 
                                                 <p></p>
                                                 <p>NOTE: You must include the additional stylesheeet,
                                                     <code>weather-icons-wind.css</code> to use the wind icons and API
-                                                    mappings.</p>
+                                                    mappings.
+                                                </p>
                                             </div>
                                         </div>
                                         <div class="row">
@@ -1408,7 +1408,8 @@
                                                     direction in the class. This means, if you want the indicator to
                                                     represent "wind is coming from the south", you can use the
                                                     <code>towards-n</code> class, or if you prefer to use from, then you
-                                                    would use <code>from-s</code>.</p>
+                                                    would use <code>from-s</code>.
+                                                </p>
                                                 <p>The purpose of this is to accommodate applications that prefer to point
                                                     to where the wind is originating from (arrow points against the wind),
                                                     or pointing where the wind is blowing (arrow points in direction of
@@ -1419,10 +1420,12 @@
                                                 <p></p>
                                                 <p>To make a wind icon appear, you need to add 3 classes, the base icon
                                                     class, the wind icon class, and then the direction you want it to face:
-                                                    <code>class="wi wi-wind wi-from-e"</code></p>
+                                                    <code>class="wi wi-wind wi-from-e"</code>
+                                                </p>
                                                 <p>NOTE: You must include the additional stylesheeet,
                                                     <code>weather-icons-wind.css</code> to use the wind icons and API
-                                                    mappings.</p>
+                                                    mappings.
+                                                </p>
                                             </div>
                                         </div>
                                         <div class="row">

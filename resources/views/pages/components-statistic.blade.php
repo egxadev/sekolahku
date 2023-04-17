@@ -1,13 +1,11 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('title', 'Statistic')
 
 @push('style')
     <!-- CSS Libraries -->
-    <link rel="stylesheet"
-        href="{{ asset('library/jqvmap/dist/jqvmap.min.css') }}">
-    <link rel="stylesheet"
-        href="{{ asset('library/flag-icon-css/css/flag-icon.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('library/jqvmap/dist/jqvmap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('library/flag-icon-css/css/flag-icon.min.css') }}">
 @endpush
 
 @section('main')
@@ -33,39 +31,28 @@
                             <div class="card-header">
                                 <h4>Summary</h4>
                                 <div class="card-header-action">
-                                    <a href="#summary-chart"
-                                        data-tab="summary-tab"
-                                        class="btn active">Chart</a>
-                                    <a href="#summary-text"
-                                        data-tab="summary-tab"
-                                        class="btn">Text</a>
+                                    <a href="#summary-chart" data-tab="summary-tab" class="btn active">Chart</a>
+                                    <a href="#summary-text" data-tab="summary-tab" class="btn">Text</a>
                                 </div>
                             </div>
                             <div class="card-body">
                                 <div class="summary">
-                                    <div class="summary-info"
-                                        data-tab-group="summary-tab"
-                                        id="summary-text">
+                                    <div class="summary-info" data-tab-group="summary-tab" id="summary-text">
                                         <h4>$1,858</h4>
                                         <div class="text-muted">Sold 4 items on 2 customers</div>
                                         <div class="d-block mt-2">
                                             <a href="#">View All</a>
                                         </div>
                                     </div>
-                                    <div class="summary-chart active"
-                                        data-tab-group="summary-tab"
-                                        id="summary-chart">
-                                        <canvas id="myChart"
-                                            height="180"></canvas>
+                                    <div class="summary-chart active" data-tab-group="summary-tab" id="summary-chart">
+                                        <canvas id="myChart" height="180"></canvas>
                                     </div>
                                     <div class="summary-item">
                                         <h6 class="mt-3">Item List <span class="text-muted">(4 Items)</span></h6>
                                         <ul class="list-unstyled list-unstyled-border">
                                             <li class="media">
                                                 <a href="#">
-                                                    <img alt="image"
-                                                        class="mr-3 rounded"
-                                                        width="50"
+                                                    <img alt="image" class="mr-3 rounded" width="50"
                                                         src="{{ asset('img/products/product-4-50.png') }}">
                                                 </a>
                                                 <div class="media-body">
@@ -79,9 +66,7 @@
                                             </li>
                                             <li class="media">
                                                 <a href="#">
-                                                    <img alt="image"
-                                                        class="mr-3 rounded"
-                                                        width="50"
+                                                    <img alt="image" class="mr-3 rounded" width="50"
                                                         src="{{ asset('img/products/product-1-50.png') }}">
                                                 </a>
                                                 <div class="media-body">
@@ -94,9 +79,7 @@
                                             </li>
                                             <li class="media">
                                                 <a href="#">
-                                                    <img alt="image"
-                                                        class="mr-3 rounded"
-                                                        width="50"
+                                                    <img alt="image" class="mr-3 rounded" width="50"
                                                         src="{{ asset('img/products/product-2-50.png') }}">
                                                 </a>
                                                 <div class="media-body">
@@ -109,9 +92,7 @@
                                             </li>
                                             <li class="media">
                                                 <a href="#">
-                                                    <img alt="image"
-                                                        class="mr-3 rounded"
-                                                        width="50"
+                                                    <img alt="image" class="mr-3 rounded" width="50"
                                                         src="{{ asset('img/products/product-3-50.png') }}">
                                                 </a>
                                                 <div class="media-body">
@@ -133,17 +114,13 @@
                             <div class="card-header">
                                 <h4>Statistics</h4>
                                 <div class="card-header-action">
-                                    <a href="#"
-                                        class="btn active">Week</a>
-                                    <a href="#"
-                                        class="btn">Month</a>
-                                    <a href="#"
-                                        class="btn">Year</a>
+                                    <a href="#" class="btn active">Week</a>
+                                    <a href="#" class="btn">Month</a>
+                                    <a href="#" class="btn">Year</a>
                                 </div>
                             </div>
                             <div class="card-body">
-                                <canvas id="myChart2"
-                                    height="180"></canvas>
+                                <canvas id="myChart2" height="180"></canvas>
                                 <div class="statistic-details mt-1">
                                     <div class="statistic-details-item">
                                         <div class="text-small text-muted"><span class="text-primary"><i
@@ -220,8 +197,7 @@
                                 <h4>Visitors</h4>
                             </div>
                             <div class="card-body">
-                                <div id="visitorMap"
-                                    data-height="190"></div>
+                                <div id="visitorMap" data-height="190"></div>
                             </div>
                             <div class="card-footer card-footer-grey pt-0">
                                 <div class="statistic-details align-items-center justify-content-center mt-4">
@@ -284,62 +260,41 @@
                                 <h4>Referral URL</h4>
                             </div>
                             <div class="card-body">
-                                <canvas id="myChart3"
-                                    height="170"></canvas>
+                                <canvas id="myChart3" height="170"></canvas>
 
                                 <div class="mb-4 mt-4">
                                     <div class="text-small font-weight-bold text-muted float-right">558</div>
                                     <div class="font-weight-bold mb-1">Google</div>
-                                    <div class="progress"
-                                        data-height="3">
-                                        <div class="progress-bar"
-                                            role="progressbar"
-                                            data-width="80%"
-                                            aria-valuenow="80"
-                                            aria-valuemin="0"
-                                            aria-valuemax="100"></div>
+                                    <div class="progress" data-height="3">
+                                        <div class="progress-bar" role="progressbar" data-width="80%" aria-valuenow="80"
+                                            aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
 
                                 <div class="mb-4">
                                     <div class="text-small font-weight-bold text-muted float-right">338</div>
                                     <div class="font-weight-bold mb-1">Facebook</div>
-                                    <div class="progress"
-                                        data-height="3">
-                                        <div class="progress-bar"
-                                            role="progressbar"
-                                            data-width="67%"
-                                            aria-valuenow="25"
-                                            aria-valuemin="0"
-                                            aria-valuemax="100"></div>
+                                    <div class="progress" data-height="3">
+                                        <div class="progress-bar" role="progressbar" data-width="67%" aria-valuenow="25"
+                                            aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
 
                                 <div class="mb-4">
                                     <div class="text-small font-weight-bold text-muted float-right">238</div>
                                     <div class="font-weight-bold mb-1">Bing</div>
-                                    <div class="progress"
-                                        data-height="3">
-                                        <div class="progress-bar"
-                                            role="progressbar"
-                                            data-width="58%"
-                                            aria-valuenow="25"
-                                            aria-valuemin="0"
-                                            aria-valuemax="100"></div>
+                                    <div class="progress" data-height="3">
+                                        <div class="progress-bar" role="progressbar" data-width="58%" aria-valuenow="25"
+                                            aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
 
                                 <div class="mb-4">
                                     <div class="text-small font-weight-bold text-muted float-right">190</div>
                                     <div class="font-weight-bold mb-1">Yahoo</div>
-                                    <div class="progress"
-                                        data-height="3">
-                                        <div class="progress-bar"
-                                            role="progressbar"
-                                            data-width="36%"
-                                            aria-valuenow="25"
-                                            aria-valuemin="0"
-                                            aria-valuemax="100"></div>
+                                    <div class="progress" data-height="3">
+                                        <div class="progress-bar" role="progressbar" data-width="36%" aria-valuenow="25"
+                                            aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
                             </div>

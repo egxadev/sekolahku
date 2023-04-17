@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('title', 'Progress')
 
@@ -33,43 +33,24 @@
                             </div>
                             <div class="card-body">
                                 <div class="progress mb-3">
-                                    <div class="progress-bar"
-                                        role="progressbar"
-                                        aria-valuenow="0"
-                                        aria-valuemin="0"
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
                                         aria-valuemax="100"></div>
                                 </div>
                                 <div class="progress mb-3">
-                                    <div class="progress-bar"
-                                        role="progressbar"
-                                        data-width="25%"
-                                        aria-valuenow="25"
-                                        aria-valuemin="0"
-                                        aria-valuemax="100"></div>
+                                    <div class="progress-bar" role="progressbar" data-width="25%" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <div class="progress mb-3">
-                                    <div class="progress-bar"
-                                        role="progressbar"
-                                        data-width="50%"
-                                        aria-valuenow="50"
-                                        aria-valuemin="0"
-                                        aria-valuemax="100"></div>
+                                    <div class="progress-bar" role="progressbar" data-width="50%" aria-valuenow="50"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <div class="progress mb-3">
-                                    <div class="progress-bar"
-                                        role="progressbar"
-                                        data-width="75%"
-                                        aria-valuenow="75"
-                                        aria-valuemin="0"
-                                        aria-valuemax="100"></div>
+                                    <div class="progress-bar" role="progressbar" data-width="75%" aria-valuenow="75"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <div class="progress mb-3">
-                                    <div class="progress-bar"
-                                        role="progressbar"
-                                        data-width="100%"
-                                        aria-valuenow="100"
-                                        aria-valuemin="0"
-                                        aria-valuemax="100"></div>
+                                    <div class="progress-bar" role="progressbar" data-width="100%" aria-valuenow="100"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                         </div>
@@ -79,43 +60,24 @@
                             </div>
                             <div class="card-body">
                                 <div class="progress mb-3">
-                                    <div class="progress-bar"
-                                        role="progressbar"
-                                        aria-valuenow="0"
-                                        aria-valuemin="0"
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
                                         aria-valuemax="100">0</div>
                                 </div>
                                 <div class="progress mb-3">
-                                    <div class="progress-bar"
-                                        role="progressbar"
-                                        data-width="25%"
-                                        aria-valuenow="25"
-                                        aria-valuemin="0"
-                                        aria-valuemax="100">25%</div>
+                                    <div class="progress-bar" role="progressbar" data-width="25%" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100">25%</div>
                                 </div>
                                 <div class="progress mb-3">
-                                    <div class="progress-bar"
-                                        role="progressbar"
-                                        data-width="50%"
-                                        aria-valuenow="50"
-                                        aria-valuemin="0"
-                                        aria-valuemax="100">50%</div>
+                                    <div class="progress-bar" role="progressbar" data-width="50%" aria-valuenow="50"
+                                        aria-valuemin="0" aria-valuemax="100">50%</div>
                                 </div>
                                 <div class="progress mb-3">
-                                    <div class="progress-bar"
-                                        role="progressbar"
-                                        data-width="75%"
-                                        aria-valuenow="75"
-                                        aria-valuemin="0"
-                                        aria-valuemax="100">75%</div>
+                                    <div class="progress-bar" role="progressbar" data-width="75%" aria-valuenow="75"
+                                        aria-valuemin="0" aria-valuemax="100">75%</div>
                                 </div>
                                 <div class="progress mb-3">
-                                    <div class="progress-bar"
-                                        role="progressbar"
-                                        data-width="100%"
-                                        aria-valuenow="100"
-                                        aria-valuemin="0"
-                                        aria-valuemax="100">100%</div>
+                                    <div class="progress-bar" role="progressbar" data-width="100%" aria-valuenow="100"
+                                        aria-valuemin="0" aria-valuemax="100">100%</div>
                                 </div>
                             </div>
                         </div>
@@ -126,50 +88,25 @@
                                 <h4>Height</h4>
                             </div>
                             <div class="card-body">
-                                <div class="progress mb-3"
-                                    data-height="5">
-                                    <div class="progress-bar"
-                                        role="progressbar"
-                                        data-width="25%"
-                                        aria-valuenow="25"
-                                        aria-valuemin="0"
-                                        aria-valuemax="100"></div>
+                                <div class="progress mb-3" data-height="5">
+                                    <div class="progress-bar" role="progressbar" data-width="25%" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
-                                <div class="progress mb-3"
-                                    data-height="10">
-                                    <div class="progress-bar"
-                                        role="progressbar"
-                                        data-width="25%"
-                                        aria-valuenow="25"
-                                        aria-valuemin="0"
-                                        aria-valuemax="100"></div>
+                                <div class="progress mb-3" data-height="10">
+                                    <div class="progress-bar" role="progressbar" data-width="25%" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
-                                <div class="progress mb-3"
-                                    data-height="15">
-                                    <div class="progress-bar"
-                                        role="progressbar"
-                                        data-width="25%"
-                                        aria-valuenow="25"
-                                        aria-valuemin="0"
-                                        aria-valuemax="100"></div>
+                                <div class="progress mb-3" data-height="15">
+                                    <div class="progress-bar" role="progressbar" data-width="25%" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
-                                <div class="progress mb-3"
-                                    data-height="20">
-                                    <div class="progress-bar"
-                                        role="progressbar"
-                                        data-width="25%"
-                                        aria-valuenow="25"
-                                        aria-valuemin="0"
-                                        aria-valuemax="100"></div>
+                                <div class="progress mb-3" data-height="20">
+                                    <div class="progress-bar" role="progressbar" data-width="25%" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
-                                <div class="progress mb-3"
-                                    data-height="25">
-                                    <div class="progress-bar"
-                                        role="progressbar"
-                                        data-width="25%"
-                                        aria-valuenow="25"
-                                        aria-valuemin="0"
-                                        aria-valuemax="100"></div>
+                                <div class="progress mb-3" data-height="25">
+                                    <div class="progress-bar" role="progressbar" data-width="25%" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                         </div>
@@ -179,44 +116,24 @@
                             </div>
                             <div class="card-body">
                                 <div class="progress mb-3">
-                                    <div class="progress-bar bg-success"
-                                        role="progressbar"
-                                        data-width="25%"
-                                        aria-valuenow="25"
-                                        aria-valuemin="0"
-                                        aria-valuemax="100"></div>
+                                    <div class="progress-bar bg-success" role="progressbar" data-width="25%"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <div class="progress mb-3">
-                                    <div class="progress-bar bg-info"
-                                        role="progressbar"
-                                        data-width="50%"
-                                        aria-valuenow="50"
-                                        aria-valuemin="0"
-                                        aria-valuemax="100"></div>
+                                    <div class="progress-bar bg-info" role="progressbar" data-width="50%"
+                                        aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <div class="progress mb-3">
-                                    <div class="progress-bar bg-warning"
-                                        role="progressbar"
-                                        data-width="75%"
-                                        aria-valuenow="75"
-                                        aria-valuemin="0"
-                                        aria-valuemax="100"></div>
+                                    <div class="progress-bar bg-warning" role="progressbar" data-width="75%"
+                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <div class="progress mb-3">
-                                    <div class="progress-bar bg-danger"
-                                        role="progressbar"
-                                        data-width="100%"
-                                        aria-valuenow="100"
-                                        aria-valuemin="0"
-                                        aria-valuemax="100"></div>
+                                    <div class="progress-bar bg-danger" role="progressbar" data-width="100%"
+                                        aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <div class="progress mb-3">
-                                    <div class="progress-bar bg-info"
-                                        role="progressbar"
-                                        data-width="100%"
-                                        aria-valuenow="100"
-                                        aria-valuemin="0"
-                                        aria-valuemax="100"></div>
+                                    <div class="progress-bar bg-info" role="progressbar" data-width="100%"
+                                        aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                         </div>

@@ -1,11 +1,10 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('title', 'Toastr')
 
 @push('style')
     <!-- CSS Libraries -->
-    <link rel="stylesheet"
-        href="{{ asset('library/izitoast/dist/css/iziToast.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('library/izitoast/dist/css/iziToast.min.css') }}">
 @endpush
 
 @section('main')
@@ -30,8 +29,7 @@
                         <div class="card">
                             <div class="card-body text-center">
                                 <div class="mb-2">Info Message</div>
-                                <button class="btn btn-primary"
-                                    id="toastr-1">Launch</button>
+                                <button class="btn btn-primary" id="toastr-1">Launch</button>
                             </div>
                         </div>
                     </div>
@@ -39,8 +37,7 @@
                         <div class="card">
                             <div class="card-body text-center">
                                 <div class="mb-2">Success Message</div>
-                                <button class="btn btn-primary"
-                                    id="toastr-2">Launch</button>
+                                <button class="btn btn-primary" id="toastr-2">Launch</button>
                             </div>
                         </div>
                     </div>
@@ -48,8 +45,7 @@
                         <div class="card">
                             <div class="card-body text-center">
                                 <div class="mb-2">Warning Message</div>
-                                <button class="btn btn-primary"
-                                    id="toastr-3">Launch</button>
+                                <button class="btn btn-primary" id="toastr-3">Launch</button>
                             </div>
                         </div>
                     </div>
@@ -57,8 +53,7 @@
                         <div class="card">
                             <div class="card-body text-center">
                                 <div class="mb-2">Error Message</div>
-                                <button class="btn btn-primary"
-                                    id="toastr-4">Launch</button>
+                                <button class="btn btn-primary" id="toastr-4">Launch</button>
                             </div>
                         </div>
                     </div>
@@ -68,8 +63,7 @@
                         <div class="card">
                             <div class="card-body text-center">
                                 <div class="mb-2">Toastr Right Bottom</div>
-                                <button class="btn btn-primary"
-                                    id="toastr-5">Launch</button>
+                                <button class="btn btn-primary" id="toastr-5">Launch</button>
                             </div>
                         </div>
                     </div>
@@ -77,8 +71,7 @@
                         <div class="card">
                             <div class="card-body text-center">
                                 <div class="mb-2">Toastr Center Bottom</div>
-                                <button class="btn btn-primary"
-                                    id="toastr-6">Launch</button>
+                                <button class="btn btn-primary" id="toastr-6">Launch</button>
                             </div>
                         </div>
                     </div>
@@ -86,8 +79,7 @@
                         <div class="card">
                             <div class="card-body text-center">
                                 <div class="mb-2">Toastr Left Bottom</div>
-                                <button class="btn btn-primary"
-                                    id="toastr-7">Launch</button>
+                                <button class="btn btn-primary" id="toastr-7">Launch</button>
                             </div>
                         </div>
                     </div>
@@ -95,8 +87,7 @@
                         <div class="card">
                             <div class="card-body text-center">
                                 <div class="mb-2">Toastr Top Center</div>
-                                <button class="btn btn-primary"
-                                    id="toastr-8">Launch</button>
+                                <button class="btn btn-primary" id="toastr-8">Launch</button>
                             </div>
                         </div>
                     </div>

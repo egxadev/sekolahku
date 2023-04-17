@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('title', 'Chat Box')
 
@@ -32,9 +32,7 @@
                             <div class="card-body">
                                 <ul class="list-unstyled list-unstyled-border">
                                     <li class="media">
-                                        <img alt="image"
-                                            class="rounded-circle mr-3"
-                                            width="50"
+                                        <img alt="image" class="rounded-circle mr-3" width="50"
                                             src="{{ asset('img/avatar/avatar-1.png') }}">
                                         <div class="media-body">
                                             <div class="font-weight-bold mt-0 mb-1">Hasan Basri</div>
@@ -43,9 +41,7 @@
                                         </div>
                                     </li>
                                     <li class="media">
-                                        <img alt="image"
-                                            class="rounded-circle mr-3"
-                                            width="50"
+                                        <img alt="image" class="rounded-circle mr-3" width="50"
                                             src="{{ asset('img/avatar/avatar-2.png') }}">
                                         <div class="media-body">
                                             <div class="font-weight-bold mt-0 mb-1">Bagus Dwi Cahya</div>
@@ -54,9 +50,7 @@
                                         </div>
                                     </li>
                                     <li class="media">
-                                        <img alt="image"
-                                            class="rounded-circle mr-3"
-                                            width="50"
+                                        <img alt="image" class="rounded-circle mr-3" width="50"
                                             src="{{ asset('img/avatar/avatar-3.png') }}">
                                         <div class="media-body">
                                             <div class="font-weight-bold mt-0 mb-1">Wildan Ahdian</div>
@@ -65,9 +59,7 @@
                                         </div>
                                     </li>
                                     <li class="media">
-                                        <img alt="image"
-                                            class="rounded-circle mr-3"
-                                            width="50"
+                                        <img alt="image" class="rounded-circle mr-3" width="50"
                                             src="{{ asset('img/avatar/avatar-4.png') }}">
                                         <div class="media-body">
                                             <div class="font-weight-bold mt-0 mb-1">Rizal Fakhri</div>
@@ -80,8 +72,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4">
-                        <div class="card chat-box"
-                            id="mychatbox">
+                        <div class="card chat-box" id="mychatbox">
                             <div class="card-header">
                                 <h4>Chat with Rizal</h4>
                             </div>
@@ -89,9 +80,7 @@
                             </div>
                             <div class="card-footer chat-form">
                                 <form id="chat-form">
-                                    <input type="text"
-                                        class="form-control"
-                                        placeholder="Type a message">
+                                    <input type="text" class="form-control" placeholder="Type a message">
                                     <button class="btn btn-primary">
                                         <i class="far fa-paper-plane"></i>
                                     </button>
@@ -100,20 +89,16 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4">
-                        <div class="card chat-box card-success"
-                            id="mychatbox2">
+                        <div class="card chat-box card-success" id="mychatbox2">
                             <div class="card-header">
-                                <h4><i class="fas fa-circle text-success mr-2"
-                                        title="Online"
-                                        data-toggle="tooltip"></i> Chat with Ryan</h4>
+                                <h4><i class="fas fa-circle text-success mr-2" title="Online" data-toggle="tooltip"></i>
+                                    Chat with Ryan</h4>
                             </div>
                             <div class="card-body chat-content">
                             </div>
                             <div class="card-footer chat-form">
                                 <form id="chat-form2">
-                                    <input type="text"
-                                        class="form-control"
-                                        placeholder="Type a message">
+                                    <input type="text" class="form-control" placeholder="Type a message">
                                     <button class="btn btn-primary">
                                         <i class="far fa-paper-plane"></i>
                                     </button>

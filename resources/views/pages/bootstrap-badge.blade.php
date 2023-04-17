@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('title', 'Badge')
 
@@ -65,44 +65,35 @@
                             <div class="card-body">
                                 <div class="buttons">
                                     <div class="section-title mt-0">Simple</div>
-                                    <button type="button"
-                                        class="btn btn-primary">
+                                    <button type="button" class="btn btn-primary">
                                         Notifications <span class="badge badge-transparent">4</span>
                                     </button>
-                                    <button type="button"
-                                        class="btn btn-danger">
+                                    <button type="button" class="btn btn-danger">
                                         Notifications <span class="badge badge-transparent">4</span>
                                     </button>
-                                    <button type="button"
-                                        class="btn btn-warning">
+                                    <button type="button" class="btn btn-warning">
                                         Notifications <span class="badge badge-transparent">4</span>
                                     </button>
-                                    <button type="button"
-                                        class="btn btn-success">
+                                    <button type="button" class="btn btn-success">
                                         Notifications <span class="badge badge-transparent">4</span>
                                     </button>
-                                    <button type="button"
-                                        class="btn btn-dark">
+                                    <button type="button" class="btn btn-dark">
                                         Notifications <span class="badge badge-transparent">4</span>
                                     </button>
                                     <div class="section-title">Icons</div>
-                                    <button type="button"
-                                        class="btn btn-primary btn-icon icon-left">
+                                    <button type="button" class="btn btn-primary btn-icon icon-left">
                                         <i class="fas fa-plane"></i> Notifications <span
                                             class="badge badge-transparent">4</span>
                                     </button>
-                                    <button type="button"
-                                        class="btn btn-danger btn-icon icon-left">
+                                    <button type="button" class="btn btn-danger btn-icon icon-left">
                                         <i class="fas fa-plane"></i> Notifications <span
                                             class="badge badge-transparent">4</span>
                                     </button>
-                                    <button type="button"
-                                        class="btn btn-warning btn-icon icon-left">
+                                    <button type="button" class="btn btn-warning btn-icon icon-left">
                                         <i class="fas fa-plane"></i> Notifications <span
                                             class="badge badge-transparent">4</span>
                                     </button>
-                                    <button type="button"
-                                        class="btn btn-success btn-icon icon-left">
+                                    <button type="button" class="btn btn-success btn-icon icon-left">
                                         <i class="fas fa-plane"></i> Notifications <span
                                             class="badge badge-transparent">4</span>
                                     </button>
@@ -115,22 +106,14 @@
                             </div>
                             <div class="card-body">
                                 <div class="badges">
-                                    <a href="#"
-                                        class="badge badge-primary">Primary</a>
-                                    <a href="#"
-                                        class="badge badge-secondary">Secondary</a>
-                                    <a href="#"
-                                        class="badge badge-success">Success</a>
-                                    <a href="#"
-                                        class="badge badge-danger">Danger</a>
-                                    <a href="#"
-                                        class="badge badge-warning">Warning</a>
-                                    <a href="#"
-                                        class="badge badge-info">Info</a>
-                                    <a href="#"
-                                        class="badge badge-light">Light</a>
-                                    <a href="#"
-                                        class="badge badge-dark">Dark</a>
+                                    <a href="#" class="badge badge-primary">Primary</a>
+                                    <a href="#" class="badge badge-secondary">Secondary</a>
+                                    <a href="#" class="badge badge-success">Success</a>
+                                    <a href="#" class="badge badge-danger">Danger</a>
+                                    <a href="#" class="badge badge-warning">Warning</a>
+                                    <a href="#" class="badge badge-info">Info</a>
+                                    <a href="#" class="badge badge-light">Light</a>
+                                    <a href="#" class="badge badge-dark">Dark</a>
                                 </div>
                             </div>
                         </div>

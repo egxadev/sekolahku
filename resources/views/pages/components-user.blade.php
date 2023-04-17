@@ -1,15 +1,12 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('title', 'User')
 
 @push('style')
     <!-- CSS Libraries -->
-    <link rel="stylesheet"
-        href="{{ asset('library/bootstrap-social/bootstrap-social.css') }}">
-    <link rel="stylesheet"
-        href="{{ asset('library/owl.carousel/dist/assets/owl.theme.default.min.css') }}">
-    <link rel="stylesheet"
-        href="{{ asset('library/owl.carousel/dist/assets/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('library/bootstrap-social/bootstrap-social.css') }}">
+    <link rel="stylesheet" href="{{ asset('library/owl.carousel/dist/assets/owl.theme.default.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('library/owl.carousel/dist/assets/owl.carousel.min.css') }}">
 @endpush
 
 @section('main')
@@ -33,12 +30,10 @@
                         <div class="card author-box card-primary">
                             <div class="card-body">
                                 <div class="author-box-left">
-                                    <img alt="image"
-                                        src="{{ asset('img/avatar/avatar-1.png') }}"
+                                    <img alt="image" src="{{ asset('img/avatar/avatar-1.png') }}"
                                         class="rounded-circle author-box-picture">
                                     <div class="clearfix"></div>
-                                    <a href="#"
-                                        class="btn btn-primary follow-btn mt-3"
+                                    <a href="#" class="btn btn-primary follow-btn mt-3"
                                         data-follow-action="alert('follow clicked');"
                                         data-unfollow-action="alert('unfollow clicked');">Follow</a>
                                 </div>
@@ -56,26 +51,21 @@
                                     <div class="mb-2 mt-3">
                                         <div class="text-small font-weight-bold">Follow Hasan On</div>
                                     </div>
-                                    <a href="#"
-                                        class="btn btn-social-icon btn-facebook mr-1">
+                                    <a href="#" class="btn btn-social-icon btn-facebook mr-1">
                                         <i class="fab fa-facebook-f"></i>
                                     </a>
-                                    <a href="#"
-                                        class="btn btn-social-icon btn-twitter mr-1">
+                                    <a href="#" class="btn btn-social-icon btn-twitter mr-1">
                                         <i class="fab fa-twitter"></i>
                                     </a>
-                                    <a href="#"
-                                        class="btn btn-social-icon btn-github mr-1">
+                                    <a href="#" class="btn btn-social-icon btn-github mr-1">
                                         <i class="fab fa-github"></i>
                                     </a>
-                                    <a href="#"
-                                        class="btn btn-social-icon btn-instagram mr-1">
+                                    <a href="#" class="btn btn-social-icon btn-instagram mr-1">
                                         <i class="fab fa-instagram"></i>
                                     </a>
                                     <div class="w-100 d-sm-none"></div>
                                     <div class="mt-sm-0 float-right mt-3">
-                                        <a href="#"
-                                            class="btn">View Posts <i class="fas fa-chevron-right"></i></a>
+                                        <a href="#" class="btn">View Posts <i class="fas fa-chevron-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -84,18 +74,15 @@
                             <div class="card-header">
                                 <h4>Users</h4>
                                 <div class="card-header-action">
-                                    <a href="#"
-                                        class="btn btn-danger btn-icon icon-right">View All <i
+                                    <a href="#" class="btn btn-danger btn-icon icon-right">View All <i
                                             class="fas fa-chevron-right"></i></a>
                                 </div>
                             </div>
                             <div class="card-body">
-                                <div class="owl-carousel owl-theme"
-                                    id="users-carousel">
+                                <div class="owl-carousel owl-theme" id="users-carousel">
                                     <div>
                                         <div class="user-item">
-                                            <img alt="image"
-                                                src="{{ asset('img/avatar/avatar-1.png') }}"
+                                            <img alt="image" src="{{ asset('img/avatar/avatar-1.png') }}"
                                                 class="img-fluid">
                                             <div class="user-details">
                                                 <div class="user-name">Hasan Basri</div>
@@ -110,8 +97,7 @@
                                     </div>
                                     <div>
                                         <div class="user-item">
-                                            <img alt="image"
-                                                src="{{ asset('img/avatar/avatar-2.png') }}"
+                                            <img alt="image" src="{{ asset('img/avatar/avatar-2.png') }}"
                                                 class="img-fluid">
                                             <div class="user-details">
                                                 <div class="user-name">Kusnaedi</div>
@@ -126,8 +112,7 @@
                                     </div>
                                     <div>
                                         <div class="user-item">
-                                            <img alt="image"
-                                                src="{{ asset('img/avatar/avatar-3.png') }}"
+                                            <img alt="image" src="{{ asset('img/avatar/avatar-3.png') }}"
                                                 class="img-fluid">
                                             <div class="user-details">
                                                 <div class="user-name">Bagus Dwi Cahya</div>
@@ -142,8 +127,7 @@
                                     </div>
                                     <div>
                                         <div class="user-item">
-                                            <img alt="image"
-                                                src="{{ asset('img/avatar/avatar-4.png') }}"
+                                            <img alt="image" src="{{ asset('img/avatar/avatar-4.png') }}"
                                                 class="img-fluid">
                                             <div class="user-details">
                                                 <div class="user-name">Wildan Ahdian</div>
@@ -158,8 +142,7 @@
                                     </div>
                                     <div>
                                         <div class="user-item">
-                                            <img alt="image"
-                                                src="{{ asset('img/avatar/avatar-5.png') }}"
+                                            <img alt="image" src="{{ asset('img/avatar/avatar-5.png') }}"
                                                 class="img-fluid">
                                             <div class="user-details">
                                                 <div class="user-name">Deden Febriansyah</div>
@@ -179,8 +162,7 @@
                     <div class="col-12 col-sm-12 col-lg-5">
                         <div class="card profile-widget">
                             <div class="profile-widget-header">
-                                <img alt="image"
-                                    src="{{ asset('img/avatar/avatar-1.png') }}"
+                                <img alt="image" src="{{ asset('img/avatar/avatar-1.png') }}"
                                     class="rounded-circle profile-widget-picture">
                                 <div class="profile-widget-items">
                                     <div class="profile-widget-item">
@@ -210,20 +192,16 @@
                             </div>
                             <div class="card-footer pt-0 text-center">
                                 <div class="font-weight-bold text-small mb-2">Follow Hasan On</div>
-                                <a href="#"
-                                    class="btn btn-social-icon btn-facebook mr-1">
+                                <a href="#" class="btn btn-social-icon btn-facebook mr-1">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
-                                <a href="#"
-                                    class="btn btn-social-icon btn-twitter mr-1">
+                                <a href="#" class="btn btn-social-icon btn-twitter mr-1">
                                     <i class="fab fa-twitter"></i>
                                 </a>
-                                <a href="#"
-                                    class="btn btn-social-icon btn-github mr-1">
+                                <a href="#" class="btn btn-social-icon btn-github mr-1">
                                     <i class="fab fa-github"></i>
                                 </a>
-                                <a href="#"
-                                    class="btn btn-social-icon btn-instagram mr-1">
+                                <a href="#" class="btn btn-social-icon btn-instagram mr-1">
                                     <i class="fab fa-instagram"></i>
                                 </a>
                             </div>
@@ -236,100 +214,68 @@
                                 <div class="row">
                                     <div class="col-6 col-sm-3 col-lg-3 mb-md-0 mb-4">
                                         <div class="avatar-item">
-                                            <img alt="image"
-                                                src="{{ asset('img/avatar/avatar-1.png') }}"
-                                                class="img-fluid"
-                                                data-toggle="tooltip"
-                                                title="Syahdan Ubaidillah">
-                                            <div class="avatar-badge"
-                                                title="Editor"
-                                                data-toggle="tooltip"><i class="fas fa-wrench"></i></div>
+                                            <img alt="image" src="{{ asset('img/avatar/avatar-1.png') }}"
+                                                class="img-fluid" data-toggle="tooltip" title="Syahdan Ubaidillah">
+                                            <div class="avatar-badge" title="Editor" data-toggle="tooltip"><i
+                                                    class="fas fa-wrench"></i></div>
                                         </div>
                                     </div>
                                     <div class="col-6 col-sm-3 col-lg-3 mb-md-0 mb-4">
                                         <div class="avatar-item">
-                                            <img alt="image"
-                                                src="{{ asset('img/avatar/avatar-2.png') }}"
-                                                class="img-fluid"
-                                                data-toggle="tooltip"
-                                                title="Danny Stenvenson">
-                                            <div class="avatar-badge"
-                                                title="Admin"
-                                                data-toggle="tooltip"><i class="fas fa-cog"></i></div>
+                                            <img alt="image" src="{{ asset('img/avatar/avatar-2.png') }}"
+                                                class="img-fluid" data-toggle="tooltip" title="Danny Stenvenson">
+                                            <div class="avatar-badge" title="Admin" data-toggle="tooltip"><i
+                                                    class="fas fa-cog"></i></div>
                                         </div>
                                     </div>
                                     <div class="col-6 col-sm-3 col-lg-3 mb-md-0 mb-4">
                                         <div class="avatar-item">
-                                            <img alt="image"
-                                                src="{{ asset('img/avatar/avatar-3.png') }}"
-                                                class="img-fluid"
-                                                data-toggle="tooltip"
-                                                title="Riko Huang">
-                                            <div class="avatar-badge"
-                                                title="Author"
-                                                data-toggle="tooltip"><i class="fas fa-pencil-alt"></i></div>
+                                            <img alt="image" src="{{ asset('img/avatar/avatar-3.png') }}"
+                                                class="img-fluid" data-toggle="tooltip" title="Riko Huang">
+                                            <div class="avatar-badge" title="Author" data-toggle="tooltip"><i
+                                                    class="fas fa-pencil-alt"></i></div>
                                         </div>
                                     </div>
                                     <div class="col-6 col-sm-3 col-lg-3 mb-md-0 mb-4">
                                         <div class="avatar-item">
-                                            <img alt="image"
-                                                src="{{ asset('img/avatar/avatar-4.png') }}"
-                                                class="img-fluid"
-                                                data-toggle="tooltip"
-                                                title="Luthfi Hakim">
-                                            <div class="avatar-badge"
-                                                title="Author"
-                                                data-toggle="tooltip"><i class="fas fa-pencil-alt"></i></div>
+                                            <img alt="image" src="{{ asset('img/avatar/avatar-4.png') }}"
+                                                class="img-fluid" data-toggle="tooltip" title="Luthfi Hakim">
+                                            <div class="avatar-badge" title="Author" data-toggle="tooltip"><i
+                                                    class="fas fa-pencil-alt"></i></div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-6 col-sm-3 col-lg-3 mb-md-0 mb-4">
                                         <div class="avatar-item">
-                                            <img alt="image"
-                                                src="{{ asset('img/avatar/avatar-5.png') }}"
-                                                class="img-fluid"
-                                                data-toggle="tooltip"
-                                                title="Alfa Zulkarnain">
-                                            <div class="avatar-badge"
-                                                title="Editor"
-                                                data-toggle="tooltip"><i class="fas fa-wrench"></i></div>
+                                            <img alt="image" src="{{ asset('img/avatar/avatar-5.png') }}"
+                                                class="img-fluid" data-toggle="tooltip" title="Alfa Zulkarnain">
+                                            <div class="avatar-badge" title="Editor" data-toggle="tooltip"><i
+                                                    class="fas fa-wrench"></i></div>
                                         </div>
                                     </div>
                                     <div class="col-6 col-sm-3 col-lg-3 mb-md-0 mb-4">
                                         <div class="avatar-item">
-                                            <img alt="image"
-                                                src="{{ asset('img/avatar/avatar-4.png') }}"
-                                                class="img-fluid"
-                                                data-toggle="tooltip"
-                                                title="Egi Ferdian">
-                                            <div class="avatar-badge"
-                                                title="Admin"
-                                                data-toggle="tooltip"><i class="fas fa-cog"></i></div>
+                                            <img alt="image" src="{{ asset('img/avatar/avatar-4.png') }}"
+                                                class="img-fluid" data-toggle="tooltip" title="Egi Ferdian">
+                                            <div class="avatar-badge" title="Admin" data-toggle="tooltip"><i
+                                                    class="fas fa-cog"></i></div>
                                         </div>
                                     </div>
                                     <div class="col-6 col-sm-3 col-lg-3 mb-md-0 mb-4">
                                         <div class="avatar-item">
-                                            <img alt="image"
-                                                src="{{ asset('img/avatar/avatar-1.png') }}"
-                                                class="img-fluid"
-                                                data-toggle="tooltip"
-                                                title="Jaka Ramadhan">
-                                            <div class="avatar-badge"
-                                                title="Author"
-                                                data-toggle="tooltip"><i class="fas fa-pencil-alt"></i></div>
+                                            <img alt="image" src="{{ asset('img/avatar/avatar-1.png') }}"
+                                                class="img-fluid" data-toggle="tooltip" title="Jaka Ramadhan">
+                                            <div class="avatar-badge" title="Author" data-toggle="tooltip"><i
+                                                    class="fas fa-pencil-alt"></i></div>
                                         </div>
                                     </div>
                                     <div class="col-6 col-sm-3 col-lg-3 mb-md-0 mb-4">
                                         <div class="avatar-item">
-                                            <img alt="image"
-                                                src="{{ asset('img/avatar/avatar-2.png') }}"
-                                                class="img-fluid"
-                                                data-toggle="tooltip"
-                                                title="Ryan">
-                                            <div class="avatar-badge"
-                                                title="Admin"
-                                                data-toggle="tooltip"><i class="fas fa-cog"></i></div>
+                                            <img alt="image" src="{{ asset('img/avatar/avatar-2.png') }}"
+                                                class="img-fluid" data-toggle="tooltip" title="Ryan">
+                                            <div class="avatar-badge" title="Admin" data-toggle="tooltip"><i
+                                                    class="fas fa-cog"></i></div>
                                         </div>
                                     </div>
                                 </div>
@@ -346,9 +292,7 @@
                             <div class="card-body">
                                 <ul class="list-unstyled list-unstyled-border list-unstyled-noborder">
                                     <li class="media">
-                                        <img alt="image"
-                                            class="rounded-circle mr-3"
-                                            width="70"
+                                        <img alt="image" class="rounded-circle mr-3" width="70"
                                             src="{{ asset('img/avatar/avatar-1.png') }}">
                                         <div class="media-body">
                                             <div class="media-right">
@@ -367,15 +311,12 @@
                                                 <div class="bullet"></div>
                                                 <a href="#">Edit</a>
                                                 <div class="bullet"></div>
-                                                <a href="#"
-                                                    class="text-danger">Trash</a>
+                                                <a href="#" class="text-danger">Trash</a>
                                             </div>
                                         </div>
                                     </li>
                                     <li class="media">
-                                        <img alt="image"
-                                            class="rounded-circle mr-3"
-                                            width="70"
+                                        <img alt="image" class="rounded-circle mr-3" width="70"
                                             src="{{ asset('img/avatar/avatar-2.png') }}">
                                         <div class="media-body">
                                             <div class="media-right">
@@ -394,15 +335,12 @@
                                                 <div class="bullet"></div>
                                                 <a href="#">Edit</a>
                                                 <div class="bullet"></div>
-                                                <a href="#"
-                                                    class="text-danger">Trash</a>
+                                                <a href="#" class="text-danger">Trash</a>
                                             </div>
                                         </div>
                                     </li>
                                     <li class="media">
-                                        <img alt="image"
-                                            class="rounded-circle mr-3"
-                                            width="70"
+                                        <img alt="image" class="rounded-circle mr-3" width="70"
                                             src="{{ asset('img/avatar/avatar-3.png') }}">
                                         <div class="media-body">
                                             <div class="media-right">
@@ -420,8 +358,7 @@
                                                 <div class="bullet"></div>
                                                 <a href="#">Edit</a>
                                                 <div class="bullet"></div>
-                                                <a href="#"
-                                                    class="text-danger">Trash</a>
+                                                <a href="#" class="text-danger">Trash</a>
                                             </div>
                                         </div>
                                     </li>
@@ -437,9 +374,7 @@
                             <div class="card-body">
                                 <ul class="list-unstyled user-progress list-unstyled-border list-unstyled-noborder">
                                     <li class="media">
-                                        <img alt="image"
-                                            class="rounded-circle mr-3"
-                                            width="50"
+                                        <img alt="image" class="rounded-circle mr-3" width="50"
                                             src="{{ asset('img/avatar/avatar-1.png') }}">
                                         <div class="media-body">
                                             <div class="media-title">Rizal Fakhri</div>
@@ -447,21 +382,16 @@
                                         </div>
                                         <div class="media-progressbar">
                                             <div class="progress-text">30%</div>
-                                            <div class="progress"
-                                                data-height="6">
-                                                <div class="progress-bar bg-primary"
-                                                    data-width="30%"></div>
+                                            <div class="progress" data-height="6">
+                                                <div class="progress-bar bg-primary" data-width="30%"></div>
                                             </div>
                                         </div>
                                         <div class="media-cta">
-                                            <a href="#"
-                                                class="btn btn-outline-primary">Detail</a>
+                                            <a href="#" class="btn btn-outline-primary">Detail</a>
                                         </div>
                                     </li>
                                     <li class="media">
-                                        <img alt="image"
-                                            class="rounded-circle mr-3"
-                                            width="50"
+                                        <img alt="image" class="rounded-circle mr-3" width="50"
                                             src="{{ asset('img/avatar/avatar-5.png') }}">
                                         <div class="media-body">
                                             <div class="media-title">Irwansyah Saputra</div>
@@ -469,21 +399,16 @@
                                         </div>
                                         <div class="media-progressbar">
                                             <div class="progress-text">67%</div>
-                                            <div class="progress"
-                                                data-height="6">
-                                                <div class="progress-bar bg-primary"
-                                                    data-width="67%"></div>
+                                            <div class="progress" data-height="6">
+                                                <div class="progress-bar bg-primary" data-width="67%"></div>
                                             </div>
                                         </div>
                                         <div class="media-cta">
-                                            <a href="#"
-                                                class="btn btn-outline-primary">Detail</a>
+                                            <a href="#" class="btn btn-outline-primary">Detail</a>
                                         </div>
                                     </li>
                                     <li class="media">
-                                        <img alt="image"
-                                            class="rounded-circle mr-3"
-                                            width="50"
+                                        <img alt="image" class="rounded-circle mr-3" width="50"
                                             src="{{ asset('img/avatar/avatar-4.png') }}">
                                         <div class="media-body">
                                             <div class="media-title">Hasan Basri</div>
@@ -491,15 +416,12 @@
                                         </div>
                                         <div class="media-progressbar">
                                             <div class="progress-text">45%</div>
-                                            <div class="progress"
-                                                data-height="6">
-                                                <div class="progress-bar bg-primary"
-                                                    data-width="45%"></div>
+                                            <div class="progress" data-height="6">
+                                                <div class="progress-bar bg-primary" data-width="45%"></div>
                                             </div>
                                         </div>
                                         <div class="media-cta">
-                                            <a href="#"
-                                                class="btn btn-outline-primary">Detail</a>
+                                            <a href="#" class="btn btn-outline-primary">Detail</a>
                                         </div>
                                     </li>
                                 </ul>
@@ -513,9 +435,7 @@
                             <div class="card-body">
                                 <ul class="list-unstyled user-details list-unstyled-border list-unstyled-noborder">
                                     <li class="media">
-                                        <img alt="image"
-                                            class="rounded-circle mr-3"
-                                            width="50"
+                                        <img alt="image" class="rounded-circle mr-3" width="50"
                                             src="{{ asset('img/avatar/avatar-1.png') }}">
                                         <div class="media-body">
                                             <div class="media-title">Rizal Fakhri</div>
@@ -537,9 +457,7 @@
                                         </div>
                                     </li>
                                     <li class="media">
-                                        <img alt="image"
-                                            class="rounded-circle mr-3"
-                                            width="50"
+                                        <img alt="image" class="rounded-circle mr-3" width="50"
                                             src="{{ asset('img/avatar/avatar-5.png') }}">
                                         <div class="media-body">
                                             <div class="media-title">Irwansyah Saputra</div>
@@ -561,9 +479,7 @@
                                         </div>
                                     </li>
                                     <li class="media">
-                                        <img alt="image"
-                                            class="rounded-circle mr-3"
-                                            width="50"
+                                        <img alt="image" class="rounded-circle mr-3" width="50"
                                             src="{{ asset('img/avatar/avatar-4.png') }}">
                                         <div class="media-body">
                                             <div class="media-title">Hasan Basri</div>

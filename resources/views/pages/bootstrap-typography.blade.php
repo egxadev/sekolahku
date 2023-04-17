@@ -1,11 +1,10 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('title', 'Typography')
 
 @push('style')
     <!-- CSS Libraries -->
-    <link rel="stylesheet"
-        href="{{ asset('library/prismjs/themes/prism.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('library/prismjs/themes/prism.min.css') }}">
 @endpush
 
 @section('main')
@@ -88,8 +87,7 @@
                             </div>
                             <div class="card-body">
                                 <p><abbr title="attribute">attr</abbr></p>
-                                <p><abbr title="HyperText Markup Language"
-                                        class="initialism">HTML</abbr></p>
+                                <p><abbr title="HyperText Markup Language" class="initialism">HTML</abbr></p>
                             </div>
                         </div>
                     </div>

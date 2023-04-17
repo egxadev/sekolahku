@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('title', 'Blank Page')
 
@@ -97,37 +97,20 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-4">
-                                        <div class="list-group"
-                                            id="list-tab"
-                                            role="tablist">
-                                            <a class="list-group-item list-group-item-action active"
-                                                id="list-home-list"
-                                                data-toggle="list"
-                                                href="#list-home"
-                                                role="tab">Home</a>
-                                            <a class="list-group-item list-group-item-action"
-                                                id="list-profile-list"
-                                                data-toggle="list"
-                                                href="#list-profile"
-                                                role="tab">Profile</a>
-                                            <a class="list-group-item list-group-item-action"
-                                                id="list-messages-list"
-                                                data-toggle="list"
-                                                href="#list-messages"
-                                                role="tab">Messages</a>
-                                            <a class="list-group-item list-group-item-action"
-                                                id="list-settings-list"
-                                                data-toggle="list"
-                                                href="#list-settings"
-                                                role="tab">Settings</a>
+                                        <div class="list-group" id="list-tab" role="tablist">
+                                            <a class="list-group-item list-group-item-action active" id="list-home-list"
+                                                data-toggle="list" href="#list-home" role="tab">Home</a>
+                                            <a class="list-group-item list-group-item-action" id="list-profile-list"
+                                                data-toggle="list" href="#list-profile" role="tab">Profile</a>
+                                            <a class="list-group-item list-group-item-action" id="list-messages-list"
+                                                data-toggle="list" href="#list-messages" role="tab">Messages</a>
+                                            <a class="list-group-item list-group-item-action" id="list-settings-list"
+                                                data-toggle="list" href="#list-settings" role="tab">Settings</a>
                                         </div>
                                     </div>
                                     <div class="col-8">
-                                        <div class="tab-content"
-                                            id="nav-tabContent">
-                                            <div class="tab-pane fade show active"
-                                                id="list-home"
-                                                role="tabpanel"
+                                        <div class="tab-content" id="nav-tabContent">
+                                            <div class="tab-pane fade show active" id="list-home" role="tabpanel"
                                                 aria-labelledby="list-home-list">
                                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -136,9 +119,7 @@
                                                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
                                                 non.
                                             </div>
-                                            <div class="tab-pane fade"
-                                                id="list-profile"
-                                                role="tabpanel"
+                                            <div class="tab-pane fade" id="list-profile" role="tabpanel"
                                                 aria-labelledby="list-profile-list">
                                                 Deserunt cupidatat anim ullamco ut dolor anim sint nulla amet incididunt
                                                 tempor ad ut pariatur officia culpa laboris occaecat. Dolor in nisi aliquip
@@ -146,9 +127,7 @@
                                                 occaecat reprehenderit esse ut eu culpa fugiat nostrud pariatur adipisicing
                                                 incididunt consequat nisi non amet.
                                             </div>
-                                            <div class="tab-pane fade"
-                                                id="list-messages"
-                                                role="tabpanel"
+                                            <div class="tab-pane fade" id="list-messages" role="tabpanel"
                                                 aria-labelledby="list-messages-list">
                                                 In quis non esse eiusmod sunt fugiat magna pariatur officia anim ex officia
                                                 nostrud amet nisi pariatur eu est id ut exercitation ex ad reprehenderit
@@ -156,9 +135,7 @@
                                                 tempor exercitation in aute veniam et velit dolore irure qui ex magna ex
                                                 culpa enim anim ea mollit consequat ullamco exercitation in.
                                             </div>
-                                            <div class="tab-pane fade"
-                                                id="list-settings"
-                                                role="tabpanel"
+                                            <div class="tab-pane fade" id="list-settings" role="tabpanel"
                                                 aria-labelledby="list-settings-list">
                                                 Lorem ipsum culpa in ad velit dolore anim labore incididunt do aliqua sit
                                                 veniam commodo elit dolore do labore occaecat laborum sed quis proident
@@ -192,18 +169,16 @@
                             </div>
                             <div class="card-body">
                                 <div class="list-group">
-                                    <a href="#"
-                                        class="list-group-item list-group-item-action active">
+                                    <a href="#" class="list-group-item list-group-item-action active">
                                         Cras justo odio
                                     </a>
-                                    <a href="#"
-                                        class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
-                                    <a href="#"
-                                        class="list-group-item list-group-item-action">Morbi leo risus</a>
-                                    <a href="#"
-                                        class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
-                                    <a href="#"
-                                        class="list-group-item list-group-item-action disabled">Vestibulum at eros</a>
+                                    <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis
+                                        in</a>
+                                    <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                                    <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur
+                                        ac</a>
+                                    <a href="#" class="list-group-item list-group-item-action disabled">Vestibulum
+                                        at eros</a>
                                 </div>
                             </div>
                         </div>

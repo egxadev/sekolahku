@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('content')
     <div class="main-content">
@@ -20,28 +20,34 @@
 
                             <div class="form-group">
                                 <label>JUDUL VIDEO</label>
-                                <input type="text" name="title" value="{{ old('title') }}" placeholder="Masukkan Judul Video" class="form-control @error('title') is-invalid @enderror">
+                                <input type="text" name="title" value="{{ old('title') }}"
+                                    placeholder="Masukkan Judul Video"
+                                    class="form-control @error('title') is-invalid @enderror">
 
                                 @error('title')
-                                <div class="invalid-feedback" style="display: block">
-                                    {{ $message }}
-                                </div>
+                                    <div class="invalid-feedback" style="display: block">
+                                        {{ $message }}
+                                    </div>
                                 @enderror
                             </div>
 
                             <div class="form-group">
                                 <label>EMBED YOUTUBE</label>
-                                <input type="text" name="embed" value="{{ old('embed') }}" placeholder="Masukkan Embed YouTube" class="form-control @error('embed') is-invalid @enderror">
+                                <input type="text" name="embed" value="{{ old('embed') }}"
+                                    placeholder="Masukkan Embed YouTube"
+                                    class="form-control @error('embed') is-invalid @enderror">
 
                                 @error('embed')
-                                <div class="invalid-feedback" style="display: block">
-                                    {{ $message }}
-                                </div>
+                                    <div class="invalid-feedback" style="display: block">
+                                        {{ $message }}
+                                    </div>
                                 @enderror
                             </div>
 
-                            <button class="btn btn-primary mr-1 btn-submit" type="submit"><i class="fa fa-paper-plane"></i> SIMPAN</button>
-                            <button class="btn btn-warning btn-reset" type="reset"><i class="fa fa-redo"></i> RESET</button>
+                            <button class="btn btn-primary mr-1 btn-submit" type="submit"><i class="fa fa-paper-plane"></i>
+                                SIMPAN</button>
+                            <button class="btn btn-warning btn-reset" type="reset"><i class="fa fa-redo"></i>
+                                RESET</button>
 
                         </form>
                     </div>

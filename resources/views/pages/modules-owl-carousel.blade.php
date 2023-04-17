@@ -1,13 +1,11 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('title', 'Owl Carousel')
 
 @push('style')
     <!-- CSS Libraries -->
-    <link rel="stylesheet"
-        href="{{ asset('library/owl.carousel/dist/assets/owl.carousel.min.css') }}">
-    <link rel="stylesheet"
-        href="{{ asset('library/owl.carousel/dist/assets/owl.theme.default.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('library/owl.carousel/dist/assets/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('library/owl.carousel/dist/assets/owl.theme.default.min.css') }}">
 @endpush
 
 @section('main')
@@ -33,16 +31,11 @@
                                 <h4>Sliders</h4>
                             </div>
                             <div class="card-body">
-                                <div class="owl-carousel owl-theme slider"
-                                    id="slider1">
-                                    <div><img alt="image"
-                                            src="{{ asset('img/news/img01.jpg') }}"></div>
-                                    <div><img alt="image"
-                                            src="{{ asset('img/news/img08.jpg') }}"></div>
-                                    <div><img alt="image"
-                                            src="{{ asset('img/news/img10.jpg') }}"></div>
-                                    <div><img alt="image"
-                                            src="{{ asset('img/news/img09.jpg') }}"></div>
+                                <div class="owl-carousel owl-theme slider" id="slider1">
+                                    <div><img alt="image" src="{{ asset('img/news/img01.jpg') }}"></div>
+                                    <div><img alt="image" src="{{ asset('img/news/img08.jpg') }}"></div>
+                                    <div><img alt="image" src="{{ asset('img/news/img10.jpg') }}"></div>
+                                    <div><img alt="image" src="{{ asset('img/news/img09.jpg') }}"></div>
                                 </div>
                             </div>
                         </div>
@@ -53,10 +46,8 @@
                                 <h4>Sliders (Caption)</h4>
                             </div>
                             <div class="card-body">
-                                <div class="owl-carousel owl-theme slider"
-                                    id="slider2">
-                                    <div><img alt="image"
-                                            src="{{ asset('img/news/img01.jpg') }}">
+                                <div class="owl-carousel owl-theme slider" id="slider2">
+                                    <div><img alt="image" src="{{ asset('img/news/img01.jpg') }}">
                                         <div class="slider-caption">
                                             <div class="slider-title">Image 1</div>
                                             <div class="slider-description">Lorem ipsum dolor sit amet, consectetur
@@ -64,8 +55,7 @@
                                                 tempor incididunt ut labore et dolore magna aliqua.</div>
                                         </div>
                                     </div>
-                                    <div><img alt="image"
-                                            src="{{ asset('img/news/img08.jpg') }}">
+                                    <div><img alt="image" src="{{ asset('img/news/img08.jpg') }}">
                                         <div class="slider-caption">
                                             <div class="slider-title">Image 2</div>
                                             <div class="slider-description">Lorem ipsum dolor sit amet, consectetur
@@ -73,8 +63,7 @@
                                                 tempor incididunt ut labore et dolore magna aliqua.</div>
                                         </div>
                                     </div>
-                                    <div><img alt="image"
-                                            src="{{ asset('img/news/img10.jpg') }}">
+                                    <div><img alt="image" src="{{ asset('img/news/img10.jpg') }}">
                                         <div class="slider-caption">
                                             <div class="slider-title">Image 3</div>
                                             <div class="slider-description">Lorem ipsum dolor sit amet, consectetur
@@ -82,8 +71,7 @@
                                                 tempor incididunt ut labore et dolore magna aliqua.</div>
                                         </div>
                                     </div>
-                                    <div><img alt="image"
-                                            src="{{ asset('img/news/img09.jpg') }}">
+                                    <div><img alt="image" src="{{ asset('img/news/img09.jpg') }}">
                                         <div class="slider-caption">
                                             <div class="slider-title">Image 4</div>
                                             <div class="slider-description">Lorem ipsum dolor sit amet, consectetur

@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('title', 'Carousel')
 
@@ -31,23 +31,18 @@
                                 <h4>Simple</h4>
                             </div>
                             <div class="card-body">
-                                <div id="carouselExampleIndicators"
-                                    class="carousel slide"
-                                    data-ride="carousel">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img class="d-block w-100"
-                                                src="{{ asset('img/news/img01.jpg') }}"
+                                            <img class="d-block w-100" src="{{ asset('img/news/img01.jpg') }}"
                                                 alt="First slide">
                                         </div>
                                         <div class="carousel-item">
-                                            <img class="d-block w-100"
-                                                src="{{ asset('img/news/img07.jpg') }}"
+                                            <img class="d-block w-100" src="{{ asset('img/news/img07.jpg') }}"
                                                 alt="Second slide">
                                         </div>
                                         <div class="carousel-item">
-                                            <img class="d-block w-100"
-                                                src="{{ asset('img/news/img08.jpg') }}"
+                                            <img class="d-block w-100" src="{{ asset('img/news/img08.jpg') }}"
                                                 alt="Third slide">
                                         </div>
                                     </div>
@@ -59,49 +54,34 @@
                                 <h4>Navigation &amp; Indicator</h4>
                             </div>
                             <div class="card-body">
-                                <div id="carouselExampleIndicators3"
-                                    class="carousel slide"
-                                    data-ride="carousel">
+                                <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
                                     <ol class="carousel-indicators">
-                                        <li data-target="#carouselExampleIndicators3"
-                                            data-slide-to="0"
-                                            class="active"></li>
-                                        <li data-target="#carouselExampleIndicators3"
-                                            data-slide-to="1"></li>
-                                        <li data-target="#carouselExampleIndicators3"
-                                            data-slide-to="2"></li>
+                                        <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
                                     </ol>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img class="d-block w-100"
-                                                src="{{ asset('img/news/img01.jpg') }}"
+                                            <img class="d-block w-100" src="{{ asset('img/news/img01.jpg') }}"
                                                 alt="First slide">
                                         </div>
                                         <div class="carousel-item">
-                                            <img class="d-block w-100"
-                                                src="{{ asset('img/news/img07.jpg') }}"
+                                            <img class="d-block w-100" src="{{ asset('img/news/img07.jpg') }}"
                                                 alt="Second slide">
                                         </div>
                                         <div class="carousel-item">
-                                            <img class="d-block w-100"
-                                                src="{{ asset('img/news/img08.jpg') }}"
+                                            <img class="d-block w-100" src="{{ asset('img/news/img08.jpg') }}"
                                                 alt="Third slide">
                                         </div>
                                     </div>
-                                    <a class="carousel-control-prev"
-                                        href="#carouselExampleIndicators3"
-                                        role="button"
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button"
                                         data-slide="prev">
-                                        <span class="carousel-control-prev-icon"
-                                            aria-hidden="true"></span>
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="sr-only">Previous</span>
                                     </a>
-                                    <a class="carousel-control-next"
-                                        href="#carouselExampleIndicators3"
-                                        role="button"
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button"
                                         data-slide="next">
-                                        <span class="carousel-control-next-icon"
-                                            aria-hidden="true"></span>
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="sr-only">Next</span>
                                     </a>
                                 </div>
@@ -114,22 +94,15 @@
                                 <h4>Caption</h4>
                             </div>
                             <div class="card-body">
-                                <div id="carouselExampleIndicators2"
-                                    class="carousel slide"
-                                    data-ride="carousel">
+                                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
                                     <ol class="carousel-indicators">
-                                        <li data-target="#carouselExampleIndicators2"
-                                            data-slide-to="0"
-                                            class="active"></li>
-                                        <li data-target="#carouselExampleIndicators2"
-                                            data-slide-to="1"></li>
-                                        <li data-target="#carouselExampleIndicators2"
-                                            data-slide-to="2"></li>
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
                                     </ol>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img class="d-block w-100"
-                                                src="{{ asset('img/news/img01.jpg') }}"
+                                            <img class="d-block w-100" src="{{ asset('img/news/img01.jpg') }}"
                                                 alt="First slide">
                                             <div class="carousel-caption d-none d-md-block">
                                                 <h5>Heading</h5>
@@ -138,8 +111,7 @@
                                             </div>
                                         </div>
                                         <div class="carousel-item">
-                                            <img class="d-block w-100"
-                                                src="{{ asset('img/news/img07.jpg') }}"
+                                            <img class="d-block w-100" src="{{ asset('img/news/img07.jpg') }}"
                                                 alt="Second slide">
                                             <div class="carousel-caption d-none d-md-block">
                                                 <h5>Heading</h5>
@@ -148,8 +120,7 @@
                                             </div>
                                         </div>
                                         <div class="carousel-item">
-                                            <img class="d-block w-100"
-                                                src="{{ asset('img/news/img08.jpg') }}"
+                                            <img class="d-block w-100" src="{{ asset('img/news/img08.jpg') }}"
                                                 alt="Third slide">
                                             <div class="carousel-caption d-none d-md-block">
                                                 <h5>Heading</h5>
@@ -158,20 +129,14 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <a class="carousel-control-prev"
-                                        href="#carouselExampleIndicators2"
-                                        role="button"
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button"
                                         data-slide="prev">
-                                        <span class="carousel-control-prev-icon"
-                                            aria-hidden="true"></span>
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="sr-only">Previous</span>
                                     </a>
-                                    <a class="carousel-control-next"
-                                        href="#carouselExampleIndicators2"
-                                        role="button"
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button"
                                         data-slide="next">
-                                        <span class="carousel-control-next-icon"
-                                            aria-hidden="true"></span>
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="sr-only">Next</span>
                                     </a>
                                 </div>
@@ -182,40 +147,29 @@
                                 <h4>Crossfade</h4>
                             </div>
                             <div class="card-body">
-                                <div id="carouselExampleFade"
-                                    class="carousel slide carousel-fade"
-                                    data-ride="carousel">
+                                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img class="d-block w-100"
-                                                src="{{ asset('img/news/img01.jpg') }}"
+                                            <img class="d-block w-100" src="{{ asset('img/news/img01.jpg') }}"
                                                 alt="First slide">
                                         </div>
                                         <div class="carousel-item">
-                                            <img class="d-block w-100"
-                                                src="{{ asset('img/news/img07.jpg') }}"
+                                            <img class="d-block w-100" src="{{ asset('img/news/img07.jpg') }}"
                                                 alt="Second slide">
                                         </div>
                                         <div class="carousel-item">
-                                            <img class="d-block w-100"
-                                                src="{{ asset('img/news/img08.jpg') }}"
+                                            <img class="d-block w-100" src="{{ asset('img/news/img08.jpg') }}"
                                                 alt="Third slide">
                                         </div>
                                     </div>
-                                    <a class="carousel-control-prev"
-                                        href="#carouselExampleFade"
-                                        role="button"
+                                    <a class="carousel-control-prev" href="#carouselExampleFade" role="button"
                                         data-slide="prev">
-                                        <span class="carousel-control-prev-icon"
-                                            aria-hidden="true"></span>
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="sr-only">Previous</span>
                                     </a>
-                                    <a class="carousel-control-next"
-                                        href="#carouselExampleFade"
-                                        role="button"
+                                    <a class="carousel-control-next" href="#carouselExampleFade" role="button"
                                         data-slide="next">
-                                        <span class="carousel-control-next-icon"
-                                            aria-hidden="true"></span>
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="sr-only">Next</span>
                                     </a>
                                 </div>

@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('title', 'Wizard')
 
@@ -228,25 +228,19 @@
                                         <div class="form-group row align-items-center">
                                             <label class="col-md-4 text-md-right text-left">Name</label>
                                             <div class="col-lg-4 col-md-6">
-                                                <input type="text"
-                                                    name="name"
-                                                    class="form-control">
+                                                <input type="text" name="name" class="form-control">
                                             </div>
                                         </div>
                                         <div class="form-group row align-items-center">
                                             <label class="col-md-4 text-md-right text-left">Email</label>
                                             <div class="col-lg-4 col-md-6">
-                                                <input type="email"
-                                                    name="email"
-                                                    class="form-control">
+                                                <input type="email" name="email" class="form-control">
                                             </div>
                                         </div>
                                         <div class="form-group row">
                                             <label class="col-md-4 text-md-right mt-2 text-left">Address</label>
                                             <div class="col-lg-4 col-md-6">
-                                                <textarea class="form-control"
-                                                    data-height="150"
-                                                    name="address"></textarea>
+                                                <textarea class="form-control" data-height="150" name="address"></textarea>
                                             </div>
                                         </div>
                                         <div class="form-group row">
@@ -254,16 +248,12 @@
                                             <div class="col-lg-4 col-md-6">
                                                 <div class="selectgroup w-100">
                                                     <label class="selectgroup-item">
-                                                        <input type="radio"
-                                                            name="value"
-                                                            value="developer"
+                                                        <input type="radio" name="value" value="developer"
                                                             class="selectgroup-input">
                                                         <span class="selectgroup-button">Developer</span>
                                                     </label>
                                                     <label class="selectgroup-item">
-                                                        <input type="radio"
-                                                            name="value"
-                                                            value="ceo"
+                                                        <input type="radio" name="value" value="ceo"
                                                             class="selectgroup-input">
                                                         <span class="selectgroup-button">CEO</span>
                                                     </label>
@@ -274,20 +264,17 @@
                                             <div class="col-md-4"></div>
                                             <div class="col-lg-4 col-md-6">
                                                 <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox"
-                                                        name="agree"
-                                                        class="custom-control-input"
+                                                    <input type="checkbox" name="agree" class="custom-control-input"
                                                         id="agree">
-                                                    <label class="custom-control-label"
-                                                        for="agree">I agree with the terms and conditions</label>
+                                                    <label class="custom-control-label" for="agree">I agree with the
+                                                        terms and conditions</label>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="form-group row">
                                             <div class="col-md-4"></div>
                                             <div class="col-lg-4 col-md-6 text-right">
-                                                <a href="#"
-                                                    class="btn btn-icon icon-right btn-primary">Next <i
+                                                <a href="#" class="btn btn-icon icon-right btn-primary">Next <i
                                                         class="fas fa-arrow-right"></i></a>
                                             </div>
                                         </div>

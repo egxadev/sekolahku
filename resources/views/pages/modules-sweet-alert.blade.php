@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('title', 'Sweet Alert')
 
@@ -30,8 +30,7 @@
                         <div class="card">
                             <div class="card-body text-center">
                                 <div class="mb-2">Simple Sweet Alert</div>
-                                <button class="btn btn-primary"
-                                    id="swal-1">Launch</button>
+                                <button class="btn btn-primary" id="swal-1">Launch</button>
                             </div>
                         </div>
                     </div>
@@ -39,8 +38,7 @@
                         <div class="card">
                             <div class="card-body text-center">
                                 <div class="mb-2">Success Message</div>
-                                <button class="btn btn-primary"
-                                    id="swal-2">Launch</button>
+                                <button class="btn btn-primary" id="swal-2">Launch</button>
                             </div>
                         </div>
                     </div>
@@ -48,8 +46,7 @@
                         <div class="card">
                             <div class="card-body text-center">
                                 <div class="mb-2">Warning Message</div>
-                                <button class="btn btn-primary"
-                                    id="swal-3">Launch</button>
+                                <button class="btn btn-primary" id="swal-3">Launch</button>
                             </div>
                         </div>
                     </div>
@@ -57,8 +54,7 @@
                         <div class="card">
                             <div class="card-body text-center">
                                 <div class="mb-2">Info Message</div>
-                                <button class="btn btn-primary"
-                                    id="swal-4">Launch</button>
+                                <button class="btn btn-primary" id="swal-4">Launch</button>
                             </div>
                         </div>
                     </div>
@@ -68,8 +64,7 @@
                         <div class="card">
                             <div class="card-body text-center">
                                 <div class="mb-2">Error Message</div>
-                                <button class="btn btn-primary"
-                                    id="swal-5">Launch</button>
+                                <button class="btn btn-primary" id="swal-5">Launch</button>
                             </div>
                         </div>
                     </div>
@@ -77,8 +72,7 @@
                         <div class="card">
                             <div class="card-body text-center">
                                 <div class="mb-2">Confirmation</div>
-                                <button class="btn btn-primary"
-                                    id="swal-6">Launch</button>
+                                <button class="btn btn-primary" id="swal-6">Launch</button>
                             </div>
                         </div>
                     </div>
@@ -86,8 +80,7 @@
                         <div class="card">
                             <div class="card-body text-center">
                                 <div class="mb-2">Input Text</div>
-                                <button class="btn btn-primary"
-                                    id="swal-7">Launch</button>
+                                <button class="btn btn-primary" id="swal-7">Launch</button>
                             </div>
                         </div>
                     </div>
@@ -95,8 +88,7 @@
                         <div class="card">
                             <div class="card-body text-center">
                                 <div class="mb-2">Auto Hide</div>
-                                <button class="btn btn-primary"
-                                    id="swal-8">Launch</button>
+                                <button class="btn btn-primary" id="swal-8">Launch</button>
                             </div>
                         </div>
                     </div>

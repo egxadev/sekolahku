@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('title', 'Breadcrumb')
 
@@ -34,16 +34,14 @@
                             <div class="card-body">
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
-                                        <li class="breadcrumb-item active"
-                                            aria-current="page">Home</li>
+                                        <li class="breadcrumb-item active" aria-current="page">Home</li>
                                     </ol>
                                 </nav>
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="#">Home</a></li>
                                         <li class="breadcrumb-item"><a href="#">Library</a></li>
-                                        <li class="breadcrumb-item active"
-                                            aria-current="page">Data</li>
+                                        <li class="breadcrumb-item active" aria-current="page">Data</li>
                                     </ol>
                                 </nav>
                             </div>
@@ -64,8 +62,8 @@
                                                 Home</a></li>
                                         <li class="breadcrumb-item"><a href="#"><i class="far fa-file"></i>
                                                 Library</a></li>
-                                        <li class="breadcrumb-item active"
-                                            aria-current="page"><i class="fas fa-list"></i> Data</li>
+                                        <li class="breadcrumb-item active" aria-current="page"><i class="fas fa-list"></i>
+                                            Data</li>
                                     </ol>
                                 </nav>
                             </div>
@@ -83,8 +81,8 @@
                                                 Home</a></li>
                                         <li class="breadcrumb-item"><a href="#"><i class="far fa-file"></i>
                                                 Library</a></li>
-                                        <li class="breadcrumb-item active"
-                                            aria-current="page"><i class="fas fa-list"></i> Data</li>
+                                        <li class="breadcrumb-item active" aria-current="page"><i class="fas fa-list"></i>
+                                            Data</li>
                                     </ol>
                                 </nav>
 
@@ -94,8 +92,8 @@
                                                 Home</a></li>
                                         <li class="breadcrumb-item"><a href="#"><i class="far fa-file"></i>
                                                 Library</a></li>
-                                        <li class="breadcrumb-item active"
-                                            aria-current="page"><i class="fas fa-list"></i> Data</li>
+                                        <li class="breadcrumb-item active" aria-current="page"><i class="fas fa-list"></i>
+                                            Data</li>
                                     </ol>
                                 </nav>
 
@@ -105,8 +103,8 @@
                                                 Home</a></li>
                                         <li class="breadcrumb-item"><a href="#"><i class="far fa-file"></i>
                                                 Library</a></li>
-                                        <li class="breadcrumb-item active"
-                                            aria-current="page"><i class="fas fa-list"></i> Data</li>
+                                        <li class="breadcrumb-item active" aria-current="page"><i class="fas fa-list"></i>
+                                            Data</li>
                                     </ol>
                                 </nav>
 
@@ -116,8 +114,8 @@
                                                 Home</a></li>
                                         <li class="breadcrumb-item"><a href="#"><i class="far fa-file"></i>
                                                 Library</a></li>
-                                        <li class="breadcrumb-item active"
-                                            aria-current="page"><i class="fas fa-list"></i> Data</li>
+                                        <li class="breadcrumb-item active" aria-current="page"><i class="fas fa-list"></i>
+                                            Data</li>
                                     </ol>
                                 </nav>
 
@@ -127,8 +125,8 @@
                                                 Home</a></li>
                                         <li class="breadcrumb-item"><a href="#"><i class="far fa-file"></i>
                                                 Library</a></li>
-                                        <li class="breadcrumb-item active"
-                                            aria-current="page"><i class="fas fa-list"></i> Data</li>
+                                        <li class="breadcrumb-item active" aria-current="page"><i
+                                                class="fas fa-list"></i> Data</li>
                                     </ol>
                                 </nav>
 
@@ -138,8 +136,8 @@
                                                     class="fas fa-tachometer-alt"></i> Home</a></li>
                                         <li class="breadcrumb-item"><a href="#"><i class="far fa-file"></i>
                                                 Library</a></li>
-                                        <li class="breadcrumb-item active"
-                                            aria-current="page"><i class="fas fa-list"></i> Data</li>
+                                        <li class="breadcrumb-item active" aria-current="page"><i
+                                                class="fas fa-list"></i> Data</li>
                                     </ol>
                                 </nav>
                             </div>

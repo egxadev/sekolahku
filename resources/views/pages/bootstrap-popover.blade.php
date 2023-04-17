@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('title', 'Popover')
 
@@ -31,38 +31,26 @@
                                 <h4>Directions</h4>
                             </div>
                             <div class="card-body">
-                                <button type="button"
-                                    class="btn btn-secondary"
-                                    data-container="body"
-                                    data-toggle="popover"
+                                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
                                     data-placement="top"
                                     data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
                                     On top
                                 </button>
 
-                                <button type="button"
-                                    class="btn btn-secondary"
-                                    data-container="body"
-                                    data-toggle="popover"
+                                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
                                     data-placement="right"
                                     data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
                                     On right
                                 </button>
 
-                                <button type="button"
-                                    class="btn btn-secondary"
-                                    data-container="body"
-                                    data-toggle="popover"
+                                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
                                     data-placement="bottom"
                                     data-content="Vivamus
                     sagittis lacus vel augue laoreet rutrum faucibus.">
                                     On bottom
                                 </button>
 
-                                <button type="button"
-                                    class="btn btn-secondary"
-                                    data-container="body"
-                                    data-toggle="popover"
+                                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
                                     data-placement="left"
                                     data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
                                     On left
@@ -74,12 +62,8 @@
                                 <h4>Disabled Popover</h4>
                             </div>
                             <div class="card-body">
-                                <span class="d-inline-block"
-                                    data-toggle="popover"
-                                    data-content="Disabled popover">
-                                    <button class="btn btn-primary pe-none"
-                                        type="button"
-                                        disabled>Disabled button</button>
+                                <span class="d-inline-block" data-toggle="popover" data-content="Disabled popover">
+                                    <button class="btn btn-primary pe-none" type="button" disabled>Disabled button</button>
                                 </span>
                             </div>
                         </div>
@@ -90,12 +74,8 @@
                                 <h4>Dismiss</h4>
                             </div>
                             <div class="card-body">
-                                <a tabindex="0"
-                                    class="btn btn-danger"
-                                    role="button"
-                                    data-toggle="popover"
-                                    data-trigger="focus"
-                                    title="Dismissible popover"
+                                <a tabindex="0" class="btn btn-danger" role="button" data-toggle="popover"
+                                    data-trigger="focus" title="Dismissible popover"
                                     data-content="And here's some amazing content. It's very engaging. Right?">Dismissible
                                     popover</a>
                             </div>
@@ -106,10 +86,8 @@
                             </div>
                             <div class="card-body">
                                 <div class="buttons">
-                                    <p>Lorem ipsum dolor sit amet, consectetur <a href="javascript:;"
-                                            data-toggle="popover"
-                                            title="Popover Title"
-                                            data-content="Hello, this is link."
+                                    <p>Lorem ipsum dolor sit amet, consectetur <a href="javascript:;" data-toggle="popover"
+                                            title="Popover Title" data-content="Hello, this is link."
                                             data-trigger="focus">adipisicing elit</a>, sed do eiusmod
                                         tempor incididunt ut labore et dolore magna aliqua.</p>
                                 </div>

@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('title', 'Avatar')
 
@@ -31,24 +31,19 @@
                             </div>
                             <div class="card-body">
                                 <figure class="avatar avatar-xl mr-2">
-                                    <img src="{{ asset('img/avatar/avatar-1.png') }}"
-                                        alt="...">
+                                    <img src="{{ asset('img/avatar/avatar-1.png') }}" alt="...">
                                 </figure>
                                 <figure class="avatar avatar-lg mr-2">
-                                    <img src="{{ asset('img/avatar/avatar-2.png') }}"
-                                        alt="...">
+                                    <img src="{{ asset('img/avatar/avatar-2.png') }}" alt="...">
                                 </figure>
                                 <figure class="avatar mr-2">
-                                    <img src="{{ asset('img/avatar/avatar-5.png') }}"
-                                        alt="...">
+                                    <img src="{{ asset('img/avatar/avatar-5.png') }}" alt="...">
                                 </figure>
                                 <figure class="avatar avatar-sm mr-2">
-                                    <img src="{{ asset('img/avatar/avatar-3.png') }}"
-                                        alt="...">
+                                    <img src="{{ asset('img/avatar/avatar-3.png') }}" alt="...">
                                 </figure>
                                 <figure class="avatar avatar-xs mr-2">
-                                    <img src="{{ asset('img/avatar/avatar-4.png') }}"
-                                        alt="...">
+                                    <img src="{{ asset('img/avatar/avatar-4.png') }}" alt="...">
                                 </figure>
                             </div>
                         </div>
@@ -60,39 +55,24 @@
                             </div>
                             <div class="card-body">
                                 <figure class="avatar avatar-xl mr-2">
-                                    <img src="{{ asset('img/avatar/avatar-1.png') }}"
-                                        alt="...">
-                                    <img src="{{ asset('img/avatar/avatar-5.png') }}"
-                                        class="avatar-icon"
-                                        alt="...">
+                                    <img src="{{ asset('img/avatar/avatar-1.png') }}" alt="...">
+                                    <img src="{{ asset('img/avatar/avatar-5.png') }}" class="avatar-icon" alt="...">
                                 </figure>
                                 <figure class="avatar avatar-lg mr-2">
-                                    <img src="{{ asset('img/avatar/avatar-2.png') }}"
-                                        alt="...">
-                                    <img src="{{ asset('img/avatar/avatar-4.png') }}"
-                                        class="avatar-icon"
-                                        alt="...">
+                                    <img src="{{ asset('img/avatar/avatar-2.png') }}" alt="...">
+                                    <img src="{{ asset('img/avatar/avatar-4.png') }}" class="avatar-icon" alt="...">
                                 </figure>
                                 <figure class="avatar mr-2">
-                                    <img src="{{ asset('img/avatar/avatar-3.png') }}"
-                                        alt="...">
-                                    <img src="{{ asset('img/avatar/avatar-3.png') }}"
-                                        class="avatar-icon"
-                                        alt="...">
+                                    <img src="{{ asset('img/avatar/avatar-3.png') }}" alt="...">
+                                    <img src="{{ asset('img/avatar/avatar-3.png') }}" class="avatar-icon" alt="...">
                                 </figure>
                                 <figure class="avatar avatar-sm mr-2">
-                                    <img src="{{ asset('img/avatar/avatar-4.png') }}"
-                                        alt="...">
-                                    <img src="{{ asset('img/avatar/avatar-2.png') }}"
-                                        class="avatar-icon"
-                                        alt="...">
+                                    <img src="{{ asset('img/avatar/avatar-4.png') }}" alt="...">
+                                    <img src="{{ asset('img/avatar/avatar-2.png') }}" class="avatar-icon" alt="...">
                                 </figure>
                                 <figure class="avatar avatar-xs mr-2">
-                                    <img src="{{ asset('img/avatar/avatar-5.png') }}"
-                                        alt="...">
-                                    <img src="{{ asset('img/avatar/avatar-1.png') }}"
-                                        class="avatar-icon"
-                                        alt="...">
+                                    <img src="{{ asset('img/avatar/avatar-5.png') }}" alt="...">
+                                    <img src="{{ asset('img/avatar/avatar-1.png') }}" class="avatar-icon" alt="...">
                                 </figure>
                             </div>
                         </div>
@@ -104,28 +84,23 @@
                             </div>
                             <div class="card-body">
                                 <figure class="avatar avatar-xl mr-2">
-                                    <img src="{{ asset('img/avatar/avatar-1.png') }}"
-                                        alt="...">
+                                    <img src="{{ asset('img/avatar/avatar-1.png') }}" alt="...">
                                     <i class="avatar-presence online"></i>
                                 </figure>
                                 <figure class="avatar avatar-lg mr-2">
-                                    <img src="{{ asset('img/avatar/avatar-2.png') }}"
-                                        alt="...">
+                                    <img src="{{ asset('img/avatar/avatar-2.png') }}" alt="...">
                                     <i class="avatar-presence busy"></i>
                                 </figure>
                                 <figure class="avatar mr-2">
-                                    <img src="{{ asset('img/avatar/avatar-3.png') }}"
-                                        alt="...">
+                                    <img src="{{ asset('img/avatar/avatar-3.png') }}" alt="...">
                                     <i class="avatar-presence away"></i>
                                 </figure>
                                 <figure class="avatar avatar-sm mr-2">
-                                    <img src="{{ asset('img/avatar/avatar-4.png') }}"
-                                        alt="...">
+                                    <img src="{{ asset('img/avatar/avatar-4.png') }}" alt="...">
                                     <i class="avatar-presence offline"></i>
                                 </figure>
                                 <figure class="avatar avatar-xs mr-2">
-                                    <img src="{{ asset('img/avatar/avatar-5.png') }}"
-                                        alt="...">
+                                    <img src="{{ asset('img/avatar/avatar-5.png') }}" alt="...">
                                     <i class="avatar-presence online"></i>
                                 </figure>
                             </div>
@@ -137,16 +112,11 @@
                                 <h4>Avatar Initial</h4>
                             </div>
                             <div class="card-body">
-                                <figure class="avatar avatar-xl mr-2"
-                                    data-initial="UM"></figure>
-                                <figure class="avatar avatar-lg bg-danger mr-2 text-white"
-                                    data-initial="UM"></figure>
-                                <figure class="avatar bg-warning mr-2 text-white"
-                                    data-initial="UM"></figure>
-                                <figure class="avatar avatar-sm bg-success mr-2 text-white"
-                                    data-initial="UM"></figure>
-                                <figure class="avatar avatar-xs bg-info mr-2 text-white"
-                                    data-initial="UM"></figure>
+                                <figure class="avatar avatar-xl mr-2" data-initial="UM"></figure>
+                                <figure class="avatar avatar-lg bg-danger mr-2 text-white" data-initial="UM"></figure>
+                                <figure class="avatar bg-warning mr-2 text-white" data-initial="UM"></figure>
+                                <figure class="avatar avatar-sm bg-success mr-2 text-white" data-initial="UM"></figure>
+                                <figure class="avatar avatar-xs bg-info mr-2 text-white" data-initial="UM"></figure>
                             </div>
                         </div>
                     </div>

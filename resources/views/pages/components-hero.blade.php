@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('title', 'Hero')
 
@@ -38,8 +38,8 @@
                                 <p class="lead">You almost arrived, complete the information about your account to
                                     complete registration.</p>
                                 <div class="mt-4">
-                                    <a href="#"
-                                        class="btn btn-outline-white btn-lg btn-icon icon-left"><i class="far fa-user"></i>
+                                    <a href="#" class="btn btn-outline-white btn-lg btn-icon icon-left"><i
+                                            class="far fa-user"></i>
                                         Setup Account</a>
                                 </div>
                             </div>
@@ -52,8 +52,7 @@
                                 <p class="lead">You have successfully registered with our system. Next, you can log in to
                                     the dashboard with your account.</p>
                                 <div class="mt-4">
-                                    <a href="#"
-                                        class="btn btn-outline-white btn-lg btn-icon icon-left"><i
+                                    <a href="#" class="btn btn-outline-white btn-lg btn-icon icon-left"><i
                                             class="fas fa-sign-in-alt"></i> Login</a>
                                 </div>
                             </div>
@@ -67,8 +66,8 @@
                                 <p class="lead">You almost arrived, complete the information about your account to
                                     complete registration.</p>
                                 <div class="mt-4">
-                                    <a href="#"
-                                        class="btn btn-outline-white btn-lg btn-icon icon-left"><i class="far fa-user"></i>
+                                    <a href="#" class="btn btn-outline-white btn-lg btn-icon icon-left"><i
+                                            class="far fa-user"></i>
                                         Setup Account</a>
                                 </div>
                             </div>
@@ -82,8 +81,8 @@
                                 <p class="lead">You almost arrived, complete the information about your account to
                                     complete registration.</p>
                                 <div class="mt-4">
-                                    <a href="#"
-                                        class="btn btn-outline-white btn-lg btn-icon icon-left"><i class="far fa-user"></i>
+                                    <a href="#" class="btn btn-outline-white btn-lg btn-icon icon-left"><i
+                                            class="far fa-user"></i>
                                         Setup Account</a>
                                 </div>
                             </div>

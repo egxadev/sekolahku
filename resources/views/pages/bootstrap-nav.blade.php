@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('title', 'Nav')
 
@@ -33,20 +33,16 @@
                             <div class="card-body">
                                 <ul class="nav">
                                     <li class="nav-item">
-                                        <a class="nav-link active"
-                                            href="#">Active</a>
+                                        <a class="nav-link active" href="#">Active</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link"
-                                            href="#">Link</a>
+                                        <a class="nav-link" href="#">Link</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link"
-                                            href="#">Link</a>
+                                        <a class="nav-link" href="#">Link</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link disabled"
-                                            href="#">Disabled</a>
+                                        <a class="nav-link disabled" href="#">Disabled</a>
                                     </li>
                                 </ul>
                             </div>
@@ -58,20 +54,16 @@
                             <div class="card-body">
                                 <ul class="nav flex-column">
                                     <li class="nav-item">
-                                        <a class="nav-link active"
-                                            href="#">Active</a>
+                                        <a class="nav-link active" href="#">Active</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link"
-                                            href="#">Link</a>
+                                        <a class="nav-link" href="#">Link</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link"
-                                            href="#">Link</a>
+                                        <a class="nav-link" href="#">Link</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link disabled"
-                                            href="#">Disabled</a>
+                                        <a class="nav-link disabled" href="#">Disabled</a>
                                     </li>
                                 </ul>
                             </div>
@@ -85,20 +77,16 @@
                             <div class="card-body">
                                 <ul class="nav nav-tabs">
                                     <li class="nav-item">
-                                        <a class="nav-link active"
-                                            href="#">Active</a>
+                                        <a class="nav-link active" href="#">Active</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link"
-                                            href="#">Link</a>
+                                        <a class="nav-link" href="#">Link</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link"
-                                            href="#">Link</a>
+                                        <a class="nav-link" href="#">Link</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link disabled"
-                                            href="#">Disabled</a>
+                                        <a class="nav-link disabled" href="#">Disabled</a>
                                     </li>
                                 </ul>
                             </div>
@@ -111,35 +99,28 @@
                                 <div class="section-title mt-0">Simple</div>
                                 <ul class="nav nav-pills">
                                     <li class="nav-item">
-                                        <a class="nav-link active"
-                                            href="#">Active</a>
+                                        <a class="nav-link active" href="#">Active</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link"
-                                            href="#">Link</a>
+                                        <a class="nav-link" href="#">Link</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link"
-                                            href="#">Link</a>
+                                        <a class="nav-link" href="#">Link</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link disabled"
-                                            href="#">Disabled</a>
+                                        <a class="nav-link disabled" href="#">Disabled</a>
                                     </li>
                                 </ul>
                                 <div class="section-title">Icon</div>
                                 <ul class="nav nav-pills">
                                     <li class="nav-item">
-                                        <a class="nav-link active"
-                                            href="#"><i class="fas fa-home"></i> Home</a>
+                                        <a class="nav-link active" href="#"><i class="fas fa-home"></i> Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link"
-                                            href="#"><i class="fas fa-user"></i> Profile</a>
+                                        <a class="nav-link" href="#"><i class="fas fa-user"></i> Profile</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link"
-                                            href="#"><i class="fas fa-cog"></i> Setting</a>
+                                        <a class="nav-link" href="#"><i class="fas fa-cog"></i> Setting</a>
                                     </li>
                                 </ul>
                             </div>

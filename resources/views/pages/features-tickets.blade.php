@@ -1,13 +1,11 @@
-@extends('layouts.app')
+@extends('layouts.app-admin')
 
 @section('title', 'Tickets')
 
 @push('style')
     <!-- CSS Libraries -->
-    <link rel="stylesheet"
-        href="{{ asset('library/summernote/dist/summernote-bs4.css') }}">
-    <link rel="stylesheet"
-        href="{{ asset('library/chocolat/dist/css/chocolat.css') }}">
+    <link rel="stylesheet" href="{{ asset('library/summernote/dist/summernote-bs4.css') }}">
+    <link rel="stylesheet" href="{{ asset('library/chocolat/dist/css/chocolat.css') }}">
 @endpush
 
 @section('main')
@@ -34,14 +32,12 @@
                                 <h4>Tickets</h4>
                             </div>
                             <div class="card-body">
-                                <a href="#"
-                                    class="btn btn-primary btn-icon icon-left btn-lg btn-block d-md-none mb-4"
+                                <a href="#" class="btn btn-primary btn-icon icon-left btn-lg btn-block d-md-none mb-4"
                                     data-toggle-slide="#ticket-items">
                                     <i class="fas fa-list"></i> All Tickets
                                 </a>
                                 <div class="tickets">
-                                    <div class="ticket-items"
-                                        id="ticket-items">
+                                    <div class="ticket-items" id="ticket-items">
                                         <div class="ticket-item active">
                                             <div class="ticket-title">
                                                 <h4>Technical problem</h4>
@@ -76,8 +72,7 @@
                                     <div class="ticket-content">
                                         <div class="ticket-header">
                                             <div class="ticket-sender-picture img-shadow">
-                                                <img src="{{ asset('img/avatar/avatar-5.png') }}"
-                                                    alt="image">
+                                                <img src="{{ asset('img/avatar/avatar-5.png') }}" alt="image">
                                             </div>
                                             <div class="ticket-detail">
                                                 <div class="ticket-title">
@@ -107,18 +102,14 @@
                                                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
                                             <div class="gallery">
-                                                <div class="gallery-item"
-                                                    data-image="{{ asset('img/news/img01.jpg') }}"
+                                                <div class="gallery-item" data-image="{{ asset('img/news/img01.jpg') }}"
                                                     data-title="Image 1"></div>
-                                                <div class="gallery-item"
-                                                    data-image="{{ asset('img/news/img02.jpg') }}"
+                                                <div class="gallery-item" data-image="{{ asset('img/news/img02.jpg') }}"
                                                     data-title="Image 2"></div>
-                                                <div class="gallery-item"
-                                                    data-image="{{ asset('img/news/img03.jpg') }}"
+                                                <div class="gallery-item" data-image="{{ asset('img/news/img03.jpg') }}"
                                                     data-title="Image 3"></div>
                                                 <div class="gallery-item gallery-more"
-                                                    data-image="{{ asset('img/news/img04.jpg') }}"
-                                                    data-title="Image 4">
+                                                    data-image="{{ asset('img/news/img04.jpg') }}" data-title="Image 4">
                                                     <div>+2</div>
                                                 </div>
                                             </div>
@@ -128,8 +119,7 @@
                                             <div class="ticket-form">
                                                 <form>
                                                     <div class="form-group">
-                                                        <textarea class="summernote form-control"
-                                                            placeholder="Type a reply ..."></textarea>
+                                                        <textarea class="summernote form-control" placeholder="Type a reply ..."></textarea>
                                                     </div>
                                                     <div class="form-group text-right">
                                                         <button class="btn btn-primary btn-lg">

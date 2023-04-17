@@ -1,4 +1,4 @@
-@extends('layouts.app', ['title' => 'General Dashboard'])
+@extends('layouts.app-admin', ['title' => 'General Dashboard'])
 
 @push('style')
     <!-- CSS Libraries -->
