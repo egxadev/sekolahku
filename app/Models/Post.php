@@ -27,12 +27,4 @@ class Post extends Model
     {
         return $this->belongsToMany(Tag::class);
     }
-
-    //change default date view
-    protected function createdAt(): Attribute
-    {
-        return Attribute::make(
-            get: fn ($value) => Carbon::parse($value)->format('d-M-Y')
-        );
-    }
 }

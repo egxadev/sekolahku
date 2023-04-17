@@ -47,6 +47,8 @@
                         <div class="card border-0 shadow-sm rounded">
                             <div class="card-body">
                                 <h3>{{ $post->title }}</h3>
+                                <p>{{ \Carbon\Carbon::parse($post->created_at)->translatedFormat('l, d M Y H:i') . ' WIB' }}
+                                </p>
                                 <hr />
                                 <img src="{{ Storage::url('public/posts/' . $post->image) }}" class="w-100 rounded" />
 

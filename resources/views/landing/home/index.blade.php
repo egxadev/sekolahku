@@ -52,7 +52,7 @@
                                             </div>
                                             <div class="card-footer bg-white">
                                                 <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                {{ $post->created_at }}
+                                                {{ \Carbon\Carbon::parse($post->created_at)->diffForHumans() }}
                                             </div>
                                         </div>
                                     </div>
