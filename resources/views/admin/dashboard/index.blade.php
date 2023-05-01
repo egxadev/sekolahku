@@ -23,7 +23,7 @@
                                 <h4>Total Admin</h4>
                             </div>
                             <div class="card-body">
-                                10
+                                {{ $usersCount }}
                             </div>
                         </div>
                     </div>
@@ -35,10 +35,10 @@
                         </div>
                         <div class="card-wrap">
                             <div class="card-header">
-                                <h4>News</h4>
+                                <h4>Total Berita</h4>
                             </div>
                             <div class="card-body">
-                                42
+                                {{ $postsCount }}
                             </div>
                         </div>
                     </div>
@@ -50,10 +50,10 @@
                         </div>
                         <div class="card-wrap">
                             <div class="card-header">
-                                <h4>Reports</h4>
+                                <h4>Total Galeri</h4>
                             </div>
                             <div class="card-body">
-                                1,201
+                                {{ $galleriesCount }}
                             </div>
                         </div>
                     </div>
@@ -65,10 +65,10 @@
                         </div>
                         <div class="card-wrap">
                             <div class="card-header">
-                                <h4>Online Users</h4>
+                                <h4>Visitors</h4>
                             </div>
                             <div class="card-body">
-                                47
+                                {{ $visitorCount }}
                             </div>
                         </div>
                     </div>

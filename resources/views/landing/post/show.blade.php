@@ -47,10 +47,13 @@
                         <div class="card border-0 shadow-sm rounded">
                             <div class="card-body">
                                 <h3>{{ $post->title }}</h3>
-                                <p>{{ \Carbon\Carbon::parse($post->created_at)->translatedFormat('l, d M Y H:i') . ' WIB' }}
+                                <p>Diposting pada hari
+                                    {{ \Carbon\Carbon::parse($post->created_at)->translatedFormat('l, d M Y H:i') . ' WIB' }}
+                                    <br>
+                                    <span class="text-muted">Dibaca oleh {{ $visitorsCount }} pengunjung lainnya</span>
                                 </p>
                                 <hr />
-                                <img src="{{ Storage::url('public/posts/' . $post->image) }}" class="w-100 rounded" />
+                                <img src="{{ Storage::url('public/posts/' . $post->image) }}" class="w-100 rounded mb-3" />
 
                                 {!! $post->content !!}
                             </div>

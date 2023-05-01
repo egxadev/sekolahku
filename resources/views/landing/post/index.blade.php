@@ -53,8 +53,11 @@
                                 </a>
                             </div>
                             <div class="card-footer bg-white">
-                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                {{ \Carbon\Carbon::parse($post->created_at)->diffForHumans() }}
+                                <div class="float-left">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                    {{ \Carbon\Carbon::parse($post->created_at)->diffForHumans() }}
+                                </div>
+                                <div class="float-right">dibaca oleh {{ $visitorsCount }} pengunjung lainnya</div>
                             </div>
                         </div>
                     </div>

@@ -16,7 +16,9 @@ class PostController extends Controller
         $posts = Post::latest()->paginate(9);
         $tags = Tag::all();
 
-        return view('landing.post.index', compact('posts', 'tags'));
+        $visitorsCount = Post::withTotalVisitCount()->first()->visit_count_total;
+
+        return view('landing.post.index', compact('posts', 'tags', 'visitorsCount'));
     }
 
     public function show($slug)
@@ -26,6 +28,10 @@ class PostController extends Controller
         $events = Event::latest()->take(4)->get();
         $tags = Tag::all();
 
-        return view('landing.post.show', compact('post', 'categories', 'events', 'tags'));
+        $post->visit()->withIP()->withSession()->withUser();
+
+        $visitorsCount = Post::withTotalVisitCount()->first()->visit_count_total;
+
+        return view('landing.post.show', compact('post', 'categories', 'events', 'tags', 'visitorsCount'));
     }
 }
