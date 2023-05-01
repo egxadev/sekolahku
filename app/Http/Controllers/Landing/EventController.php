@@ -19,7 +19,7 @@ class EventController extends Controller
 
     public function show($slug)
     {
-        $event = Event::Where('slug', $slug)->first();
+        $event = Event::Where('slug', $slug)->firstOrFail();
         $events = Event::latest()->take(4)->get();
         $tags = Tag::all();
 

@@ -21,7 +21,7 @@ class PostController extends Controller
 
     public function show($slug)
     {
-        $post = Post::Where('slug', $slug)->first();
+        $post = Post::Where('slug', $slug)->firstOrFail();
         $categories = Category::all();
         $events = Event::latest()->take(4)->get();
         $tags = Tag::all();

@@ -12,7 +12,7 @@ class CategoryController extends Controller
 {
     public function show($slug)
     {
-        $category = Category::select('id')->where('slug', $slug)->first();
+        $category = Category::select('id')->where('slug', $slug)->firstOrFail();
         $posts = Post::where('category_id', $category->id)->latest()->paginate(9);
         $tags = Tag::all();
 
